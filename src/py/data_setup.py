@@ -1,5 +1,8 @@
-from utils.data_cleaning import clean_for_content, clean_for_topic
 from tqdm.autonotebook import tqdm
+import sys
+import pandas as pd
+
+from utils.data_cleaning import clean_for_content, clean_for_topic
 
 #alter these global variables for save paths
 IN_DATA_PATH = '/home/sentiment/data_lake/twitter/processed/'
@@ -7,7 +10,9 @@ IN_DATA_SUFFIX = '.csv'
 IN_DATA_SEP = ','
 OUT_DATA_PATH = '/home/sentiment/data_lake/twitter/nlp_project_samples/'
 
-def process_data(date):
+date = sys.argv[1]
+
+if __name__ == '__main__':
 
     print("\nReading in {}".format(date))
     df = pd.concat([
@@ -30,8 +35,3 @@ def process_data(date):
     df.to_csv(OUT_DATA_PATH+str(date)+'.tsv', sep='\t', index=False)
 
     del df
-
-date = sys.argv[1]
-
-if __name__ == '__main__':
-    process_data(date)
