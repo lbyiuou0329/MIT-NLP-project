@@ -20,8 +20,10 @@ DATA_SUFFIX='.tsv'
 SEP ='\t'
 MODEL_PATH = 'models/daily_topics/'
 ASSIGNED_PATH ='data/daily_topic_distributions/'
+
 LANGUAGE = 'en'
 COUNTRY = 'US'
+MIN_DF = 0.0001 # In what share of documents must a word appear?
 
 def get_topic_distributions(model, texts):
     """
@@ -34,11 +36,10 @@ def get_topic_distributions(model, texts):
         topic_dist - list of list of (topic_id, probability) pairs for each text
     """
     dists = []
-    print('Finding topic dists')
+    print('Finding topic dists...')
     for t in tqdm(texts):
         topic_dist = model[t]
         dists.append(topic_dist)
-    print('Done')
     return dists
 
 
@@ -46,34 +47,33 @@ date = sys.argv[1]
 
 if __name__ == '__main__':
 
-    print("Reading in data for %s" % date)
+    print("\nReading in data for %s" % date)
     df = pd.read_csv(DATA_PATH+date+DATA_SUFFIX, sep=SEP, lineterminator='\n', usecols=['tweet_id', 'country', 'lang', 'tweet_text_stemmed'])
     if COUNTRY != None:
         df = df[df['country']==COUNTRY]
     if LANGUAGE != None:
-        df = df[df['lang']!=LANGUAGE]
+        df = df[df['lang']==LANGUAGE]
     df = df[df['tweet_text_stemmed'].notnull()] # Restrict to only
     print("Topic modeling on %s tweets" % df.shape[0])
 
     print("Creating TFIDF BoW...")
-    bow, features = create_bag_of_words(df['tweet_text_stemmed'], ngram_range=(1,3), use_idf=True, min_df=0.0001)
-    bow = Sparse2Corpus(bow, documents_columns=False)
-    features = Dictionary([features])
-    print('Done')
+    bow, features = create_bag_of_words(df['tweet_text_stemmed'], ngram_range=(1,3), use_idf=True, min_df=MIN_DF)
+    print('Done: %s features' % len(features))
 
     print('Training HDP model...')
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", category=DeprecationWarning)
-        hdp = HdpModel(bow, features)
-    topic_dist = get_topic_distributions(hdp, bow)
+        hdp = HdpModel(Sparse2Corpus(bow, documents_columns=False), Dictionary([features]))
+    topic_dist = get_topic_distributions(hdp, Sparse2Corpus(bow, documents_columns=False))
     print('Done')
 
     print('Saving...')
     hdp.save(MODEL_PATH+date+'_topics.model')
+    np.savetxt(MODEL_PATH+date+'_features.txt', features, fmt='%s', delimiter='\n', encoding="utf-8")
     pd.DataFrame({
         'tweet_id': df['tweet_id'],
         'topic_distribution': topic_dist
-    }).to_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=sep, lineterminator='\n')
+    }).to_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=SEP, index=False)
     print('Done')
 
     del hdp, topic_dist, df, bow, features
