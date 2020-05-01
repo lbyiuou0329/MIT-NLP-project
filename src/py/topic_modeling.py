@@ -25,7 +25,7 @@ LANGUAGE = 'en'
 COUNTRY = 'US'
 MIN_DF = 0.0001 # In what share of documents must a word appear?
 
-def get_topic_distributions(model, texts):
+def get_topic_distributions(model, texts, ids):
     """
     Returns distributions of topics for every text in texts using hdp model
     Ignores topics below 0.01 probability
@@ -35,13 +35,18 @@ def get_topic_distributions(model, texts):
     returns:
         topic_dist - list of list of (topic_id, probability) pairs for each text
     """
-    dists = []
+    id_list = []
+    topic_list = []
+    prob_list = []
     print('Finding topic dists...')
-    for t in tqdm(texts):
-        topic_dist = model[t]
-        dists.append(topic_dist)
-    return dists
-
+    for i in tqdm(range(len(texts))):
+        topic_dist = model[texts[i]]
+        if len(topic_dist)>0:
+            id_list += [ids[i] for elem in topic_dist]
+            topic_list += list(np.array(topic_dist)[:,0])
+            prob_list += list(np.array(topic_dist)[:,1])
+    topic_dists = pd.DataFrame({'tweet_id':id_list, 'topic':topic_list, 'probability':prob_list})
+    return topic_dists
 
 date = sys.argv[1]
 
@@ -64,16 +69,13 @@ if __name__ == '__main__':
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", category=DeprecationWarning)
         hdp = HdpModel(Sparse2Corpus(bow, documents_columns=False), Dictionary([features]))
-    topic_dist = get_topic_distributions(hdp, Sparse2Corpus(bow, documents_columns=False))
+    topic_dists = get_topic_distributions(hdp, Sparse2Corpus(bow, documents_columns=False), df['tweet_id'].values)
     print('Done')
 
     print('Saving...')
     hdp.save(MODEL_PATH+date+'_topics.model')
     np.savetxt(MODEL_PATH+date+'_features.txt', features, fmt='%s', delimiter='\n', encoding="utf-8")
-    pd.DataFrame({
-        'tweet_id': df['tweet_id'],
-        'topic_distribution': topic_dist
-    }).to_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=SEP, index=False)
+    topic_dists.to_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=SEP, index=False)
     print('Done')
 
     del hdp, topic_dist, df, bow, features

@@ -1,9 +1,10 @@
-#usage: python relevant_topics.py date [key,word,list,two-words] topic_name
+#usage: python3 subset_topical_tweets.py date [key,word,list,two-words] topic_name
 from gensim.models import HdpModel
 import pandas as pd
 import re
 from pathlib import Path
 import sys
+import numpy as np
 
 PROCESSED_PATH = ''
 DATA_SUFFIX = '.tsv'
@@ -11,7 +12,7 @@ SEP = '\t'
 
 DATA_PATH = '/home/sentiment/data_lake/twitter/nlp_project_samples/'
 MODEL_PATH = 'models/daily_topics/'
-ASSIGNED_PATH ='data/daily_topics/'
+ASSIGNED_PATH ='data/daily_topic_distributions/'
 SAVE_PATH ='data/topical_tweets/' #path for saving relevant tweets
 
 TOPN= 30 # number of words to look through when deciding if a topic is relevant
@@ -62,16 +63,18 @@ keywords = sys.argv[2][1:-1].replace('-', ' ').split(',')
 topic_name = sys.argv[3]
 
 print('\nLoading data for %s' % date)
-hdp = HdpModel.load(MODEL_PATH+date+'.model')
+hdp = HdpModel.load(MODEL_PATH+date+'_topics.model')
 tweets = pd.read_csv(DATA_PATH+date+DATA_SUFFIX, sep=SEP, lineterminator='\n')
 topic_dists = pd.read_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=SEP, lineterminator='\n')
+topic_dists = topic_dists[topic_dists['probability']>=PROB_THRESHOLD].reset_index(drop=True)
 print('done')
 
 print('Testing relevence')
-relevant_topics=pd.Series(get_relevant_topics(hdp, keywords, topn=TOPN))
-relevant_list = [is_relevant(dist, relevant_topics) for dist in topic_dists['topic_distribution'].values]
-relevant_ids = topic_dists['tweet_id'][relevant_list].values
-print('Done')
+relevant_topics = get_relevant_topics(hdp, keywords, topn=TOPN)
+relevant_ids = list(set(topic_dists[topic_dists['topic'].isin(relevant_topics)]['tweet_id'].values))
+# relevant_list = [is_relevant(dist, relevant_topics) for dist in topic_dists['topic_distribution'].values]
+# relevant_ids = topic_dists['tweet_id'][relevant_list].values
+print('Done: %s topical tweets' % len(relevant_ids))
 
 print('Subsetting and Saving')
 tweets = tweets[tweets['tweet_id'].isin(relevant_ids)]
