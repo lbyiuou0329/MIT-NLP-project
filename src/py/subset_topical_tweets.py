@@ -80,7 +80,7 @@ if __name__ == '__main__':
     del tweets, subset, topic_dists, hdp
 
 
-    print('\nSubsetting data for %s by String Matching' % date)
+    print('Subsetting data for %s by String Matching' % date)
     tweets = pd.read_csv(DATA_PATH+date+'.tsv', sep='\t', lineterminator='\n')
     tweets = tweets[tweets['tweet_text_stemmed'].notnull()]
     tweets.drop_duplicates('tweet_id', keep=False, inplace=True)
@@ -88,10 +88,10 @@ if __name__ == '__main__':
     subset = pd.DataFrame()
     for keyword in keywords:
         if keyword[0]=='#' or keyword[0]=='@':
-            tweets['flag'] = [(re.search('%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
+            tweets['flag'] = [(re.search(r'%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
         else:
-            tweets['flag'] = [(re.search('\b%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
-        subset = pd.concat([subset, tweets[tweets['flag']==True]].drop('flag', 1))
+            tweets['flag'] = [(re.search(r'\b%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
+        subset = pd.concat([subset, tweets[tweets['flag']==True].drop('flag', 1)], axis=0)
         tweets = tweets[tweets['flag']==False].reset_index(drop=True).drop('flag', 1)
 
     subset.to_csv(SAVE_PATH+topic_name+'/'+date+'_from_string_match.tsv', sep='\t', index=False)
