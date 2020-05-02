@@ -16,8 +16,12 @@ if __name__ == '__main__':
 
     print("\nEmbedding data for %s" % date)
 
-    tweets = pd.read_csv(TOPICAL_PATH+topic_name+'/'+date+'.tsv', sep='\t', lineterminator='\n')
-
+    tweets = pd.read_csv(TOPICAL_PATH+topic_name+'/'+date+'_from_topic_model.tsv', sep='\t', lineterminator='\n')
     embeddings = model.encode(tweets['tweet_text_clean'].fillna('').values, show_progress_bar=True, batch_size=BATCH_SIZE)
+    np.save(TOPICAL_PATH+topic_name+'/'+date+'_from_topic_model_embeddings.npy', np.array(embeddings))
+    del tweets, embeddings
 
-    np.save(TOPICAL_PATH+topic_name+'/'+date+'_embeddings.npy', np.array(embeddings))
+    tweets = pd.read_csv(TOPICAL_PATH+topic_name+'/'+date+'_from_string_match.tsv', sep='\t', lineterminator='\n')
+    embeddings = model.encode(tweets['tweet_text_clean'].fillna('').values, show_progress_bar=True, batch_size=BATCH_SIZE)
+    np.save(TOPICAL_PATH+topic_name+'/'+date+'_from_string_match_embeddings.npy', np.array(embeddings))
+    del tweets, embeddings
