@@ -1,5 +1,7 @@
+# Folders and data
 data/**/*.tsv
 data/**/*.csv
+data/**/*.npy
 models/**/*.model
 
 # Byte-compiled / optimized / DLL files
