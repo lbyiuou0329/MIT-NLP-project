@@ -65,6 +65,7 @@ topic_name = sys.argv[3]
 print('\nLoading data for %s' % date)
 hdp = HdpModel.load(MODEL_PATH+date+'_topics.model')
 tweets = pd.read_csv(DATA_PATH+date+DATA_SUFFIX, sep=SEP, lineterminator='\n')
+tweets.drop_duplicates('tweet_id', keep=False, inplace=True)
 topic_dists = pd.read_csv(ASSIGNED_PATH+date+DATA_SUFFIX, sep=SEP, lineterminator='\n')
 topic_dists = topic_dists[topic_dists['probability']>=PROB_THRESHOLD].reset_index(drop=True)
 print('done')
