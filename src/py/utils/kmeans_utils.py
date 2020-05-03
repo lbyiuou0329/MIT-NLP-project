@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
 from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_samples, silhouette_score
 
 PLOT_DIR = '/Users/boyuliu/Dropbox (MIT)/nlp_project/figures/kmeans/'
@@ -31,7 +33,7 @@ def read_in_data(datapath=datapath):
 
 def plot_kmeans_inertia(inertia_dict, PLOT_DIR=PLOT_DIR):
     if not os.path.isdir(PLOT_DIR):
-        os.path.makedirs(PLOT_DIR)
+        os.makedirs(PLOT_DIR)
 
     keys = sorted(inertia_dict.keys())
     values = [inertia_dict[k] for k in keys]
@@ -42,7 +44,7 @@ def plot_kmeans_inertia(inertia_dict, PLOT_DIR=PLOT_DIR):
 def save_inertia(inertia_dict, PLOT_DIR=PLOT_DIR):
     import json
     if not os.path.isdir(PLOT_DIR):
-        os.path.makedirs(PLOT_DIR)
+        os.makedirs(PLOT_DIR)
 
     save_path = os.path.join(PLOT_DIR, 'inertia.json')
     if os.path.isfile(save_path):
@@ -57,7 +59,7 @@ def plot_silhouette(range_n_clusters, X, kmeans_dict=None, PLOT_DIR=PLOT_DIR):
     #X = np_corpus_embeddings_trump
     # range_n_clusters = [5, 10]
     if not os.path.isdir(PLOT_DIR):
-        os.path.makedirs(PLOT_DIR)
+        os.makedirs(PLOT_DIR)
 
     inertia_dict = {}
 
@@ -153,6 +155,7 @@ def plot_silhouette(range_n_clusters, X, kmeans_dict=None, PLOT_DIR=PLOT_DIR):
                      fontsize=14, fontweight='bold')
         
         plt.savefig(os.path.join(PLOT_DIR, '%s.jpg' % n_clusters))
+        plt.close()
         print('time used for iteration with %s clusters is %s' % (n_clusters, time.time()-start_time))
         start_time = time.time()
 
@@ -189,12 +192,20 @@ if __name__ == '__main__':
                         help='path to store figures')
     parser.add_argument('--method', default='raw', type=str,
                         help='data transformation before kmeans')
+    parser.add_argument('--dims', default=50, type=int,
+                        help='number of dimensions for PCA preprocessing before kmeans')
 
     
     args = parser.parse_args()    
     range_n_clusters = _check_int(args.list_of_k.split(','))
     df, np_corpus_embeddings_trump = read_in_data()
-    embeddings = transform_embedding(np_corpus_embeddings_trump, args.method)
-    inertia_dict = plot_silhouette(range_n_clusters, embeddings, PLOT_DIR=os.path.join(args.figure_folder, args.method))
+
+    embeddings = transform_embedding(np_corpus_embeddings_trump, args.method, n_components=args.dims)
+    if args.method == 'pca':
+        plot_dir = os.path.join(args.figure_folder, args.method, str(args.dims))
+    else:
+        plot_dir = os.path.join(args.figure_folder, args.method)
+
+    inertia_dict = plot_silhouette(range_n_clusters, embeddings, PLOT_DIR=plot_dir)
     plot_kmeans_inertia(inertia_dict)
-    save_inertia(inertia_dict, PLOT_DIR=os.path.join(args.figure_folder, args.method))
+    save_inertia(inertia_dict, PLOT_DIR=plot_dir)
