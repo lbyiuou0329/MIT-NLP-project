@@ -151,6 +151,12 @@ def plot_silhouette(range_n_clusters, X, kmeans_dict=None, PLOT_DIR=PLOT_DIR):
 
     return inertia_dict
 
+# reference
+## https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html
+## https://web.stanford.edu/~hastie/Papers/gap.pdf
+## http://www.ee.columbia.edu/~dpwe/papers/PhamDN05-kmeans.pdf
+## http://www.homepages.ucl.ac.uk/~ucakche/presentations/cqualitybolognahennig.pdf
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
