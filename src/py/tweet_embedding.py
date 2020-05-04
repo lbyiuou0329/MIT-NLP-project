@@ -12,7 +12,7 @@ BATCH_SIZE = 100
 
 def save_embedding(corpus, subset_name):
     embeddings = model.encode(corpus, show_progress_bar=True, batch_size=BATCH_SIZE)
-    np.save(TOPICAL_PATH+topic_name+'/'+date+subset_name'_embeddings.npy', np.array(embeddings))
+    np.save(TOPICAL_PATH+topic_name+'/'+date+subset_name+'_embeddings.npy', np.array(embeddings))
 
 if __name__ == '__main__':
 
