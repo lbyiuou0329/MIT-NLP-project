@@ -18,17 +18,26 @@ datapath = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topic_embeddings/'
 
 random_state = 123
 
-## usage: python3 kmeans_utils.py 50,60
+# tweet_file = datapath + '/trump_tweets.tsv'
+# embedding_file = datapath+'/trump_embeddings.npy'
+
+tweet_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topical_tweets/test/test1.tsv'
+embedding_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topical_tweets/test/test1.npy'
+
+
+## usage: python3 kmeans_utils.py 50,60 (also, remember to change tweet_file and embedding_file)
+## more complicated usage: python3 kmeans_utils.py 3,4,5,7,10 --topic test --dims 20 --method pca
 
 def _check_int(list_of_k):
     result = [int(k) for k in list_of_k]
+    # will throw type error if not int
     return result
 
 def read_in_data(datapath=datapath):
-    df = pd.read_csv(datapath+'/trump_tweets.tsv', lineterminator='\n', sep='\t')
+    df = pd.read_csv(tweet_file, lineterminator='\n', sep='\t')
     # df['len_text'] = df['tweet_text_clean'].apply(lambda x: len(x.split()))
 
-    np_corpus_embeddings_trump = np.load(datapath+'/trump_embeddings.npy')
+    np_corpus_embeddings_trump = np.load(embedding_file)
     return df, np_corpus_embeddings_trump
 
 def plot_kmeans_inertia(inertia_dict, PLOT_DIR=PLOT_DIR):
@@ -192,6 +201,8 @@ if __name__ == '__main__':
                         help='path to store figures')
     parser.add_argument('--method', default='raw', type=str,
                         help='data transformation before kmeans')
+    parser.add_argument('--topic', default='trump', type=str,
+                        help='topic to decide figure storage folder')
     parser.add_argument('--dims', default=50, type=int,
                         help='number of dimensions for PCA preprocessing before kmeans')
 
@@ -202,10 +213,10 @@ if __name__ == '__main__':
 
     embeddings = transform_embedding(np_corpus_embeddings_trump, args.method, n_components=args.dims)
     if args.method == 'pca':
-        plot_dir = os.path.join(args.figure_folder, args.method, str(args.dims))
+        plot_dir = os.path.join(args.figure_folder, args.topic, args.method, str(args.dims))
     else:
-        plot_dir = os.path.join(args.figure_folder, args.method)
+        plot_dir = os.path.join(args.figure_folder, args.topic, args.method)
 
     inertia_dict = plot_silhouette(range_n_clusters, embeddings, PLOT_DIR=plot_dir)
-    plot_kmeans_inertia(inertia_dict)
+    plot_kmeans_inertia(inertia_dict, PLOT_DIR=plot_dir)
     save_inertia(inertia_dict, PLOT_DIR=plot_dir)
