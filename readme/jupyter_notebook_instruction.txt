@@ -1,0 +1,22 @@
+jupyter notebook on server
+
+On server:
+screen -S session_name
+<ctrl D+A> to detach
+<screen -r> to reattach
+<screen -ls> to list all sessions
+
+In screen session, type
+jupiter notebook --no-browser --port=8888
+write down token
+
+on local machine
+ssh -N -f -L localhost:8890:localhost:8888 <remote_user_name>@<remote_server_ip>
+(first localhost is your local machine and port you wanna use, second local host points to the port you used on remote server)
+then type in password
+
+open in your browser:
+localhost:8890/
+
+Done!
+
