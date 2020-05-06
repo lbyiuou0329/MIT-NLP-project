@@ -29,7 +29,6 @@ def process_embedding(embed_file, vec, onto=False, vec_name='gender'):
     np.save(embed_folder+new_file_name, transformed_embedding)
 
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('embed_file', 
