@@ -2,8 +2,8 @@
 ## more complicated usage: python3 src/py/utils/kmeans_utils.py 20200318 --subset_mode topic_model --keyword_normed True --list_of_k [3,4,5,7,10] --topic covid --method pca --dims 20
 
 import os
-import sys
-import time
+# import sys
+# import time
 import argparse
 import pandas as pd
 import numpy as np
@@ -25,29 +25,50 @@ def _check_int(list_of_k):
     # will throw type error if not int
     return result
 
+<<<<<<< HEAD
 def read_in_data(tweet_file, embedding_file):
     df = pd.read_csv(tweet_file, lineterminator='\n', sep='\t')
     embeddings = np.load(embedding_file)
     return df, embeddings
 
 def plot_kmeans_inertia(inertia_dict, plot_dir, filename):
+=======
+def read_in_data(embedding_file=embedding_file, tweet_file=tweet_file):
+    df = pd.read_csv(tweet_file, lineterminator='\n', sep='\t')
+    # df['len_text'] = df['tweet_text_clean'].apply(lambda x: len(x.split()))
+    np_corpus_embeddings_trump = np.load(embedding_file)
+    return df, np_corpus_embeddings_trump
+
+def plot_kmeans_inertia(inertia_dict, plot_dir=PLOT_DIR):
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
     if not os.path.isdir(plot_dir):
         os.makedirs(plot_dir)
 
     keys = sorted(inertia_dict.keys())
     values = [inertia_dict[k] for k in keys]
     plt.plot(keys, values)
+<<<<<<< HEAD
     plt.xlabel('Number of clusters')
     plt.ylabel('Inertia')
     plt.savefig(os.path.join(plot_dir, filename + '_inertia.jpg'), bbox_inches='tight')
     plt.close()
 
 def save_inertia(inertia_dict, plot_dir, filename):
+=======
+    plt.savefig(os.path.join(plot_dir, 'inertia_for_%s.jpg' % '|'.join([str(k) for k in keys])))
+    plt.close()
+
+def save_inertia(inertia_dict, plot_dir=PLOT_DIR):
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
     import json
     if not os.path.isdir(plot_dir):
         os.makedirs(plot_dir)
 
+<<<<<<< HEAD
     save_path = os.path.join(plot_dir, filename + '_inertia.json')
+=======
+    save_path = os.path.join(plot_dir, 'inertia.json')
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
     if os.path.isfile(save_path):
         with open(save_path, 'r') as fp:
             data = json.load(fp)
@@ -56,8 +77,14 @@ def save_inertia(inertia_dict, plot_dir, filename):
     with open(save_path, 'w') as fp:
         json.dump(inertia_dict, fp)
 
+<<<<<<< HEAD
 def plot_silhouette(range_n_clusters, X, plot_dir, filename, kmeans_dict=None):
 
+=======
+def plot_silhouette(range_n_clusters, X, kmeans_dict=None, plot_dir=PLOT_DIR):
+    #X = np_corpus_embeddings_trump
+    # range_n_clusters = [5, 10]
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
     if not os.path.isdir(plot_dir):
         os.makedirs(plot_dir)
 
@@ -154,7 +181,11 @@ def plot_silhouette(range_n_clusters, X, plot_dir, filename, kmeans_dict=None):
                       "with n_clusters = %d" % n_clusters),
                      fontsize=14, fontweight='bold')
         
+<<<<<<< HEAD
         plt.savefig(os.path.join(plot_dir, filename + '_%s.jpg' % n_clusters), bbox_inches='tight')
+=======
+        plt.savefig(os.path.join(plot_dir, '%s.jpg' % n_clusters))
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
         plt.close()
         print('time used for iteration with %s clusters is %s' % (n_clusters, time.time()-start_time))
         start_time = time.time()
@@ -199,6 +230,7 @@ if __name__ == '__main__':
                         help='number of dimensions for PCA preprocessing before kmeans')
 
     
+<<<<<<< HEAD
     args = parser.parse_args()  
     range_n_clusters = _check_int(args.list_of_k[1:-1].split(','))
     
@@ -224,3 +256,18 @@ if __name__ == '__main__':
     plot_kmeans_inertia(inertia_dict, plot_dir, filename)
     save_inertia(inertia_dict, plot_dir, filename)
     
+=======
+    args = parser.parse_args()    
+    range_n_clusters = _check_int(args.list_of_k.split(','))
+    df, np_corpus_embeddings_trump = read_in_data(embedding_file=embedding_file, tweet_file=tweet_file)
+
+    embeddings = transform_embedding(np_corpus_embeddings_trump, args.method, n_components=args.dims)
+    if args.method == 'pca':
+        plot_dir = os.path.join(args.figure_folder, args.topic, args.method, str(args.dims))
+    else:
+        plot_dir = os.path.join(args.figure_folder, args.topic, args.method)
+
+    inertia_dict = plot_silhouette(range_n_clusters, embeddings, plot_dir=plot_dir)
+    plot_kmeans_inertia(inertia_dict, plot_dir=plot_dir)
+    save_inertia(inertia_dict, plot_dir=plot_dir)
+>>>>>>> 7a5aac2dd9d4f9c69e72f8b8068622d6c141fa00
