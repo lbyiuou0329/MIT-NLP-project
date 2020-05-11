@@ -7,7 +7,7 @@ screen -S session_name
 <screen -ls> to list all sessions
 
 In screen session, type
-jupiter notebook --no-browser --port=8888
+jupyter notebook --no-browser --port=8888
 write down token
 
 on local machine
@@ -20,3 +20,26 @@ localhost:8890/
 
 Done!
 
+source:
+jupyter notebook: https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/
+screen cheat sheet: https://gist.github.com/jctosta/af918e1618682638aa82
+
+more advanced:
+Helper function to fire-up a Jupyter notebook in remote
+
+function jpt(){
+    # Fires-up a Jupyter notebook by supplying a specific port
+    jupyter notebook --no-browser --port=$1
+}
+And thus I only need to write:
+
+remoteuser@remotehost: jpt 8889
+Helper function to listen to a port
+
+function jptt(){
+    # Forwards port $1 into port $2 and listens to it
+    ssh -N -f -L localhost:$2:localhost:$1 remoteuser@remotehost
+}
+And so:
+
+localuser@localhost: jptt 8889 8888
