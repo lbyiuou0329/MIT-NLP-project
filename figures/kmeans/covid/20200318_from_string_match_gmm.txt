@@ -1,6 +1,6 @@
 
 ======================
-Cluster 0 (2087 tweets) is approximated by:
+Cluster 0 (2056 tweets) is approximated by:
 -  had to cut my trip short because of #covid19 and lax did nothing to screen for it. no temperature check — nothing.… (Score: 0.890)
 -  for the dumb fucks who don’t think about the severity of covid-19, there’s no vaccine and probably won’t be one for… (Score: 0.878)
 -  so the virus refused to enter india. not on a suicidal mission he said. #coronavirus (Score: 0.877)
@@ -8,7 +8,7 @@ Cluster 0 (2087 tweets) is approximated by:
 -  no not at all. literally doesn’t do anything if all you’re wearing it for is to prevent covid-19 (Score: 0.873)
 
 ======================
-Cluster 1 (2229 tweets) is approximated by:
+Cluster 1 (1730 tweets) is approximated by:
 -  i hope everyone seeing this is doing well. stay strong. #coronavirus #socialdistancing (Score: 0.888)
 -  mayor vico sotto, i applaud your efforts in dealing with important matters affected by covid 19. keep it up!. ❤❤❤ (Score: 0.865)
 -  proud of @dramyacton’s strong leadership during this #covid19 response... from advocating to regulate mass gatherin… (Score: 0.862)
@@ -16,7 +16,7 @@ Cluster 1 (2229 tweets) is approximated by:
 -  this is excellent and inspiring @jcgalway ! good to keep everyone informed and up to date with accurate #covid19 i… (Score: 0.860)
 
 ======================
-Cluster 2 (2173 tweets) is approximated by:
+Cluster 2 (2214 tweets) is approximated by:
 -  to those people who are “panic buying” because the covid-19 virus, you are a disgrace to society. to deprive workin… (Score: 0.827)
 -  howi is very concerned about our transit agencies. they are losing revenue because of #covid19. he would like all o… (Score: 0.826)
 -  you guys b like “people are dying from covid-19 but it is just very inconvenient for me” (Score: 0.812)
@@ -24,7 +24,7 @@ Cluster 2 (2173 tweets) is approximated by:
 -  yep!! if people keep going places it will get so much worse!!! and for many people the #covid19 is bad if they get… (Score: 0.804)
 
 ======================
-Cluster 3 (1285 tweets) is approximated by:
+Cluster 3 (2495 tweets) is approximated by:
 -  just saw ~50 covid patients (presumed) and took lab report on 10 positives sent last week - all in one 8 hour shift… (Score: 0.908)
 -  on saturday there were 50 deaths in the us from covid-19. the number has jumped to 130 today, only four days later.… (Score: 0.905)
 -  update: 240 cases of coronavirus in louisiana according to the @ladepthealth. that’s up by 44 since last night.… (Score: 0.902)
@@ -32,7 +32,7 @@ Cluster 3 (1285 tweets) is approximated by:
 -  big 3 wednesday march 18, 2020 1 coronavirus is now in all 50 states as the death toll tops 100.… (Score: 0.899)
 
 ======================
-Cluster 4 (2119 tweets) is approximated by:
+Cluster 4 (1408 tweets) is approximated by:
 -  gop group uses donald trump's coronavirus lies against him in new attack ad via @yahoo (Score: 0.902)
 -  gop group uses donald trump's coronavirus lies against him in new attack ad #topbuzz (Score: 0.862)
 -  inside the pro-trump facebook group where first responders call coronavirus a hoax (Score: 0.857)
@@ -40,7 +40,7 @@ Cluster 4 (2119 tweets) is approximated by:
 -  gop group uses donald trump's coronavirus lies against him in new attack ad (Score: 0.843)
 
 ======================
-Cluster 5 (2042 tweets) is approximated by:
+Cluster 5 (1487 tweets) is approximated by:
 -  #covid19 awareness: (Score: 0.875)
 -  imperial college report on #covid19 (and summary in this thread). (Score: 0.874)
 -  #covid19 update from @ladotofficial (Score: 0.873)
@@ -48,7 +48,7 @@ Cluster 5 (2042 tweets) is approximated by:
 -  for up to date info on #covid19 impacts and service changes go to (covid-19 tab) or visit f… (Score: 0.870)
 
 ======================
-Cluster 6 (2790 tweets) is approximated by:
+Cluster 6 (1472 tweets) is approximated by:
 -  i swear this coronavirus is just making people fucking stupid (Score: 0.908)
 -  y’all tripping about the coronavirus, i’m just scared about catching ligma (Score: 0.892)
 -  can the coronavirus take me , i hate it here (Score: 0.888)
@@ -56,7 +56,7 @@ Cluster 6 (2790 tweets) is approximated by:
 -  im tired of seeing all this shit about the coronavirus 🙄 (Score: 0.866)
 
 ======================
-Cluster 7 (2253 tweets) is approximated by:
+Cluster 7 (3648 tweets) is approximated by:
 -  y’all worrying about the coronavirus but still ordering your beers dressed. go lick your own cups at home (: (Score: 0.784)
 -  covid-19 is workin on me.. all i do is workout at home, make smoothies, make healthy and pretty good and go to sleep🧐 (Score: 0.763)
 -  day 2 of covid-19 quarantine and i ate 6 peanut butter chocolate chip cookies and 3 slices of pizza 😫🤦🏻‍♀️😂 (Score: 0.728)
@@ -64,7 +64,7 @@ Cluster 7 (2253 tweets) is approximated by:
 -  dear snack cupboard at home in honor of our freshman work, we shall name it covid #15. (Score: 0.717)
 
 ======================
-Cluster 8 (1427 tweets) is approximated by:
+Cluster 8 (736 tweets) is approximated by:
 -  beginning thursday, march 19, all st. lucie county libraries will be closed to help prevent the spread of #covid19.… (Score: 0.883)
 -  the points guy: trans states airlines to shut down april 1, first us carrier to close amid coronavirus crisis.… (Score: 0.883)
 -  #breaking news: 181 ohio bureau of motor vehicle offices will close at the end of business today. #coronavirus (Score: 0.881)
@@ -72,7 +72,7 @@ Cluster 8 (1427 tweets) is approximated by:
 -  due to coronavirus concerns, we have decided to suspend all plans for the 2020 @omahahshoops spring showcase. we pl… (Score: 0.873)
 
 ======================
-Cluster 9 (2412 tweets) is approximated by:
+Cluster 9 (1411 tweets) is approximated by:
 -  very cool!! u of mn began enrollment for a trial of prophylaxis for healthcare workers exposed to covid-19 along wi… (Score: 0.841)
 -  excellent news! drive-up testing for #covid19 available at #unc. ➡️get screened first before getting tested! (Score: 0.773)
 -  usf notified students a staff member in the usf counseling center tested positive for covid-19. the employee was on… (Score: 0.761)
@@ -80,7 +80,7 @@ Cluster 9 (2412 tweets) is approximated by:
 -  - @psc_cuny a student tested positive at baruch college for #covid19 . i've been told i have to report to work one… (Score: 0.735)
 
 ======================
-Cluster 10 (0 tweets) is approximated by:
+Cluster 10 (710 tweets) is approximated by:
 -  i blame china for the coronavirus. #covid2019 #chinavirus #chinesevirus (Score: 0.934)
 -  trump called the coronavirus a chinese disease, so what? diseases are often called based on where they originate fr… (Score: 0.933)
 -  reporter: “why do you call this the ‘chinese virus’?” trump: “because it comes from china.” #coronavirus (Score: 0.932)
@@ -88,7 +88,7 @@ Cluster 10 (0 tweets) is approximated by:
 -  they asked trump why he keep callin the coronavirus the chinese virus he said “because it comes from china 😂😂 but h… (Score: 0.915)
 
 ======================
-Cluster 11 (0 tweets) is approximated by:
+Cluster 11 (1450 tweets) is approximated by:
 -  @repdonbeyer omg! it’s the coronavirus! (Score: 0.930)
 -  what to expect: this is a drive through #coronavirus test. (Score: 0.919)
 -  well it’s coronavirus so.. (Score: 0.903)
