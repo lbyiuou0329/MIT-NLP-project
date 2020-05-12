@@ -1,0 +1,80 @@
+
+======================
+Cluster 0 (2087 tweets) is approximated by:
+-  @repdonbeyer omg! it’s the coronavirus! (Score: 0.952)
+-  pretty much! 🤣 #covid19 #coronavirus (Score: 0.939)
+-  waymet #coronavirus (Score: 0.934)
+-  so this is it... this is our world now lmao #coronavirus (Score: 0.926)
+-  mood...! #coronavirus #coronaupdate #coronavirus #cierretotal #covid19uk (Score: 0.925)
+
+======================
+Cluster 1 (2229 tweets) is approximated by:
+-  this is so fucking ugly, and this is also the reason why i get pissed at xenophobic coronavirus “jokes.” (Score: 0.908)
+-  this coronavirus really pissing me off.. i’m tired of hearing about it at this point 🙄🙄 (Score: 0.894)
+-  you know why #coronavirus hit and is felt harder in the usa. because of the incompetence of the leadership that is… (Score: 0.893)
+-  stuff like this is breaking my heart. as if we aren’t already a nation divided, this #coronavirus has ruined lives,… (Score: 0.889)
+-  these disgraceful @realdonaldtrump #coronavirus press conferences are riddled with outright lies, bad data, race ba… (Score: 0.884)
+
+======================
+Cluster 2 (2173 tweets) is approximated by:
+-  thanks @h2_view for sending some great reading material during this covid19 quarantine! love seeing news from great… (Score: 0.883)
+-  i love the positive hygiene that has resulted from covid-19. let’s keep that going after this has subsided. (Score: 0.883)
+-  have to give enormous credit to @nygovcuomo for his calm and reassuring manner as he leads ny through this covid-19… (Score: 0.880)
+-  thanks for your transparency and sharing your experience dealing with #covid19 i’m praying for you and ; your lovely with … (Score: 0.878)
+-  thankful @atscommunity has made the best choice for the public and ; our community. #socialdistancing #covid19 #ats2020 (Score: 0.872)
+
+======================
+Cluster 3 (1285 tweets) is approximated by:
+-  while msm is accusing president trump of being "racist" for referring to the coronavirus as the "china virus", chin… (Score: 0.935)
+-  trump blaming china for his mishandling of the coronavirus is like ___________________. (Score: 0.922)
+-  unhinged msnbc analyst says trump calling the coronavirus 'chinese' puts asian-american 'lives at risk'… (Score: 0.910)
+-  the chinese government is blaming the usa military for the coronavirus is ridiculous lol! no! y’all created this be… (Score: 0.897)
+-  beijing lashes out after trump refers to novel coronavirus as ‘chinese virus’ sorry china,… (Score: 0.896)
+
+======================
+Cluster 4 (2119 tweets) is approximated by:
+-  this a cute pic, but send the wrong message: there is no evidence that pets can contract or spread covid-19, and p… (Score: 0.923)
+-  fyi: you can’t transmit covid-19 or any other disease through eye-contact and smiles. avoiding those things just makes you look weird. (Score: 0.919)
+-  so the virus refused to enter india. not on a suicidal mission he said. #coronavirus (Score: 0.910)
+-  the coronavirus doesn’t apply to y’all. you can’t close 😂 (Score: 0.890)
+-  #coronavirus didn’t sneak up on us. @realdonaldtrump and ; his administration failed in their slow response because as… (Score: 0.888)
+
+======================
+Cluster 5 (2042 tweets) is approximated by:
+-  #breaking news: 181 ohio bureau of motor vehicle offices will close at the end of business today. #coronavirus (Score: 0.905)
+-  fiat chrysler assemblies employees got word today their kokomo area facilities are shutting down because of covid19… (Score: 0.882)
+-  for my locals...red wind casino is closed for business during the covid-19 crisis. (Score: 0.882)
+-  breaking: due to the covid-19 outbreak, the quidditch world cup and the boonta eve pod-racing has been cancelled.… (Score: 0.881)
+-  party city is closing all of its stores temporarily due to covid-19. (Score: 0.876)
+
+======================
+Cluster 6 (2790 tweets) is approximated by:
+-  what the spanish flu debacle can teach us about coronavirus via @politico (Score: 0.877)
+-  ‘blood of the immune’: doctors want to try an antiquated treatment on the coronavirus via @nbcnews read @minsa_peru (Score: 0.866)
+-  great listen on @axios about a potential vaccine for coronavirus and how it’s being made by moderna - spoiler alert… (Score: 0.859)
+-  looking for coronavirus testing centers near you? k health just launched a map of coronavirus testing centers so yo… (Score: 0.839)
+-  so where are we with testing patient sera for antibodies to confirm people have already had coronavirus? screening… (Score: 0.821)
+
+======================
+Cluster 7 (2253 tweets) is approximated by:
+-  just saw ~50 covid patients (presumed) and took lab report on 10 positives sent last week - all in one 8 hour shift… (Score: 0.954)
+-  on saturday there were 50 deaths in the us from covid-19. the number has jumped to 130 today, only four days later.… (Score: 0.939)
+-  *about 200 new cases but only 3 new deaths reported in #nyc since monday* daily #coronavirus update for new york ci… (Score: 0.913)
+-  florida coronavirus update for wednesday: almost 100 new cases across state (Score: 0.909)
+-  worldwide coronavirus infection toll hits 200,000 after doubling in less than 2.weeks. workers disinfect a corridor… (Score: 0.907)
+
+======================
+Cluster 8 (1427 tweets) is approximated by:
+-  #covid19 awareness: (Score: 0.943)
+-  this: #covid19 (Score: 0.935)
+-  and this was named #covid19. so let’s use its name. (Score: 0.931)
+-  @realdonaldtrump @potus it has a name. covid-19. use it. (Score: 0.928)
+-  also it's #covid19 (Score: 0.927)
+
+======================
+Cluster 9 (2412 tweets) is approximated by:
+-  camden has added a new never stop learning tile to our covid-19 inside camden page with resources focused on helpin… (Score: 0.835)
+-  @elemlbusd we are expected to work from home, parent, and be teachers during #covid19 ??? we need virtual classroom… (Score: 0.816)
+-  24 hour sprint: join the #ideocovidchallenge and share your experience with the #covid19 response, to help inform a… (Score: 0.812)
+-  watch live: community leaders are answering your questions about covid-19 on @wlfi right now (Score: 0.810)
+-  our first @zoom class has my #rwica2 preservice teachers sharing #covid19 resources and ; suggestions that teachers nee… (Score: 0.807)
