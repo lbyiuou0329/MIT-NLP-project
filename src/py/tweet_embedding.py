@@ -1,4 +1,4 @@
-#Usage: python tweet_embedding.py date topic_name
+#Usage: python3 src/py/tweet_embedding.py 20200101 topic_name
 import sys
 import pandas as pd
 import numpy as np
@@ -34,19 +34,19 @@ if __name__ == '__main__':
 
     print("From string match")
     corpus = pd.read_csv(TOPICAL_PATH+args.topic_name+'/'+args.date+'_from_string_match.tsv', sep='\t', lineterminator='\n')['tweet_text_clean'].fillna('').values
-    save_embedding(corpus, subset_name='_from_string_match')
+    save_embedding(corpus, subset_name='_from_string_match', args=args)
     if args.remove_keyword:
         print("From string match removing keywords")
         corpus = [re.sub(keyword_regex, '', elem).strip() for elem in corpus]
-        save_embedding(corpus, subset_name='_from_string_match_keyword_normed')
+        save_embedding(corpus, subset_name='_from_string_match_keyword_normed', args=args)
     del corpus
 
     if args.topic_model:
         print("From topic model")
         corpus = pd.read_csv(TOPICAL_PATH+args.topic_name+'/'+args.date+'_from_topic_model.tsv', sep='\t', lineterminator='\n')['tweet_text_clean'].fillna('').values
-        save_embedding(corpus, subset_name='_from_topic_model')
+        save_embedding(corpus, subset_name='_from_topic_model', args=args)
         if args.remove_keyword:
             print("From topic model removing keywords")
             corpus = [re.sub(keyword_regex, '', elem).strip() for elem in corpus]
-            save_embedding(corpus, subset_name='_from_topic_model_keyword_normed')
+            save_embedding(corpus, subset_name='_from_topic_model_keyword_normed', args=args)
         del corpus
