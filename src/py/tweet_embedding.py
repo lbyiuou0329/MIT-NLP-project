@@ -30,7 +30,7 @@ if __name__ == '__main__':
     keyword_regex = r'\b'+r'\b|\b'.join(keywords)+r'\b'
     keyword_regex = keyword_regex.replace(r'\b@', '@').replace(r'\b#', '#')
 
-    print("\nEmbedding data for %s" % args.date)
+    print("\nEmbedding data for {}".format(args.date))
 
     print("From string match")
     corpus = pd.read_csv(TOPICAL_PATH+args.topic_name+'/'+args.date+'_from_string_match.tsv', sep='\t', lineterminator='\n')['tweet_text_clean'].fillna('').values
@@ -50,3 +50,5 @@ if __name__ == '__main__':
             corpus = [re.sub(keyword_regex, '', elem).strip() for elem in corpus]
             save_embedding(corpus, subset_name='_from_topic_model_keyword_normed', args=args)
         del corpus
+
+    print("Done with day {} !".format(args.date))

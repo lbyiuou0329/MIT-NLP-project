@@ -25,7 +25,7 @@ def get_relevant_topics(model, keywords, topn=None, weight_threshold=None):
     if topn is None and weight_threshold is None:
         raise ValueError('One of topn or weight_threshold required')
     topic_term = model.get_topics() #topic term matrix of weights num_topics x num terms
-    keywords = np.array(hdp.id2word.doc2idx(keywords)) #makes keywords into id format
+    keywords = np.array(model.id2word.doc2idx(keywords)) #makes keywords into id format
     relevant_topics = []
     i= 0
     for topic in topic_term:
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     tweets = pd.read_csv(DATA_PATH+args.date+'.tsv', sep='\t', lineterminator='\n')
     tweets = tweets[tweets['lang']=='en']
-    if args.country_subset == True:
+    if args.country_subset:
         tweets = tweets[tweets['country']=="US"]
     tweets = tweets[tweets['tweet_text_stemmed'].notnull()]
 
