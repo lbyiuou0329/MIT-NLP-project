@@ -72,6 +72,7 @@ if __name__ == '__main__':
     parser.add_argument('keywords', help='on which keywords?')
     parser.add_argument('topic_name', help='what is the topic name?')
     parser.add_argument('--country_subset', default = True, type = bool, help='subset to the US?')
+    parser.add_argument('--topic_model', default = False, type = bool, help='do we also run the version from topic modeling?')
     parser.add_argument('--topn', default = 30, type = int, help='number of words to look through when deciding if a topic is relevant')
     parser.add_argument('--prob_threshold', default = 0.25, type = float, help='lower bound on percent probability of being assigned to a given topic')
     args = parser.parse_args()
@@ -88,12 +89,13 @@ if __name__ == '__main__':
         tweets = tweets[tweets['country']=="US"]
     tweets = tweets[tweets['tweet_text_stemmed'].notnull()]
 
-    print('\nSubsetting data for %s by Topic Modeling' % args.date)
-    subset = get_topic_model_subset(tweets, args)
-    subset.to_csv(SAVE_PATH+args.topic_name+'/'+args.date+'_from_topic_model.tsv', sep='\t', index=False)
-    print('Done: %s topical tweets' % subset.shape[0])
-
     print('Subsetting data for %s by String Matching' % args.date)
     subset = get_string_match_subset(tweets, args)
     subset.to_csv(SAVE_PATH+args.topic_name+'/'+args.date+'_from_string_match.tsv', sep='\t', index=False)
     print('Done: %s topical tweets' % subset.shape[0])
+
+    if args.topic_model:
+        print('\nSubsetting data for %s by Topic Modeling' % args.date)
+        subset = get_topic_model_subset(tweets, args)
+        subset.to_csv(SAVE_PATH+args.topic_name+'/'+args.date+'_from_topic_model.tsv', sep='\t', index=False)
+        print('Done: %s topical tweets' % subset.shape[0])
