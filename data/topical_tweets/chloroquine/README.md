@@ -1,1 +1,1 @@
-Subsets created using keywords [chloroquine,chloroquin,cloroquine,hydroxychloroquine,hydroxychloroquin,hydroxycloroquine]
+Subsets created using keywords ['hydroxychloroquin', 'chloroquin', 'cloroquin', 'hydroxycloroquin']
