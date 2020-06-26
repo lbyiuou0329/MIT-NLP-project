@@ -53,13 +53,13 @@ def get_topic_model_subset(tweets, args):
     return subset
 
 def get_string_match_subset(tweets, args):
-    subset = pd.DataFrame()
 
+    subset = pd.DataFrame()
     for keyword in args.keywords:
         if keyword[0]=='#' or keyword[0]=='@':
-            tweets['flag'] = [(re.search(r'%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
+            tweets['flag'] = [(re.search(r'{}\b'.format(keyword), elem) is not None) for elem in tweets['tweet_text_stemmed'].values]
         else:
-            tweets['flag'] = [(re.search(r'\b%s\b' % keyword, elem) is not None) for elem in tweets['tweet_text_clean'].values]
+            tweets['flag'] = [(re.search(r'\b{}\b'.format(keyword), elem) is not None) for elem in tweets['tweet_text_stemmed'].values]
         subset = pd.concat([subset, tweets[tweets['flag']==True].drop('flag', 1)], axis=0)
         tweets = tweets[tweets['flag']==False].reset_index(drop=True).drop('flag', 1)
 
