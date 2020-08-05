@@ -71,7 +71,7 @@ if __name__ == '__main__':
     parser.add_argument('date', help='what date?')
     parser.add_argument('keywords', help='on which keywords?')
     parser.add_argument('topic_name', help='what is the topic name?')
-    parser.add_argument('--country_subset', default = True, type = bool, help='subset to the US?')
+    parser.add_argument('--country_subset', default = 'US', type = str, help='subset to the US?')
     parser.add_argument('--topic_model', default = False, type = bool, help='do we also run the version from topic modeling?')
     parser.add_argument('--topn', default = 30, type = int, help='number of words to look through when deciding if a topic is relevant')
     parser.add_argument('--prob_threshold', default = 0.25, type = float, help='lower bound on percent probability of being assigned to a given topic')
@@ -85,8 +85,8 @@ if __name__ == '__main__':
 
     tweets = pd.read_csv(DATA_PATH+args.date+'.tsv', sep='\t', lineterminator='\n')
     tweets = tweets[tweets['lang']=='en']
-    if args.country_subset:
-        tweets = tweets[tweets['country']=="US"]
+    if args.country_subset is not None:
+        tweets = tweets[tweets['country']==args.country_subset]
     tweets = tweets[tweets['tweet_text_stemmed'].notnull()]
 
     print('Subsetting data for %s by String Matching' % args.date)
