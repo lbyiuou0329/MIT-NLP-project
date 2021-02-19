@@ -55,15 +55,17 @@ def get_topic_model_subset(tweets, args):
 
     return subset
 
-def get_string_match_subset(tweets, args):
+def get_string_match_subset(tweet_text, args):
 
-    subset = pd.DataFrame()
-    for keyword in args.keywords:
-        if keyword[0]=='#' or keyword[0]=='@':
-            tweets['flag'] = [(re.search(r'{}\b'.format(keyword), elem) is not None) for elem in tweets['tweet_text_stemmed'].values]
-        else:
-            tweets['flag'] = [(re.search(r'\b{}\b'.format(keyword), elem) is not None) for elem in tweets['tweet_text_stemmed'].values]
-        subset = pd.concat([subset, tweets[tweets['flag']==True].drop('flag', 1)], axis=0)
-        tweets = tweets[tweets['flag']==False].reset_index(drop=True).drop('flag', 1)
+    if len(args.incl_keywords)>0:
+        regex = '|'.join(args.incl_keywords)
+        tweet_text['keep'] = [bool(re.search(regex, elem)) for elem in tweet_text['tweet_text_keywords'].values]
+        tweet_text = tweet_text[tweet_text['keep']==True].reset_index(drop=True)
+        del tweet_text['keep']
+    if len(args.excl_keywords)>0:
+        regex = '|'.join(args.excl_keywords)
+        tweet_text['drop'] = [bool(re.search(regex, elem)) for elem in tweet_text['tweet_text_keywords'].values]
+        tweet_text = tweet_text[tweet_text['drop']==True].reset_index(drop=True)
+        del tweet_text['drop']
 
-    return subset
+    return tweet_text
