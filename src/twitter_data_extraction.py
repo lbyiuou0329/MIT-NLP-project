@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument('--prob_threshold', default = 0.25, type = float, help='lower bound on percent probability of being assigned to a given topic')
 
     ## Embeddings
-    parser.add_argument('--model', default = 'distilbert-base-nli-stsb-mean-tokens', type = str, help='embedding model')
+    parser.add_argument('--model', default = 'stsb-xlm-r-multilingual', type = str, help='embedding model')
     parser.add_argument('--batch_size', default = 100, type = int, help='batch size')
     parser.add_argument('--remove_keyword', default = False, type = bool, help='do we also run the version without the keyword?')
     args = parser.parse_args()
@@ -43,8 +43,8 @@ if __name__ == '__main__':
     if args.topic_model:
         args.suffix += "_from_topic_model"
 
-    with open('data/topical_tweets/{}{}_README.md'.format(args.ext_name, args.suffix), 'w') as text_file:
-        print('Subsets created using arguments:\n{}'.format(args), file=text_file)
+    with open('data/extractions/{}{}_README.md'.format(args.ext_name, args.suffix), 'w') as text_file:
+        print('Extraction created using the arguments:\n{}'.format(args), file=text_file)
 
     dates = get_dates(args)
 
@@ -52,6 +52,6 @@ if __name__ == '__main__':
     for date in tqdm(dates):
         temp = get_data(date, args)
         df = pd.concat([df, temp], axis=0)
-        df.to_csv('data/topical_tweets/{}{}.tsv'.format(args.ext_name, args.suffix), sep='\t', index=False)
+        df.to_csv('data/extractions/{}{}.tsv'.format(args.ext_name, args.suffix), sep='\t', index=False)
 
     embeddings = get_embeddings(df['tweet_text_clean'].fillna('').values, args=args)

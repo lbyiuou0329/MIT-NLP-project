@@ -1,726 +1,0 @@
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:08<01:10,  8.80s/it]Batches:  22%|██▏       | 2/9 [00:18<01:04,  9.15s/it]Batches:  33%|███▎      | 3/9 [00:28<00:55,  9.29s/it]Batches:  44%|████▍     | 4/9 [00:34<00:42,  8.46s/it]Batches:  56%|█████▌    | 5/9 [00:44<00:35,  8.79s/it]Batches:  67%|██████▋   | 6/9 [00:55<00:28,  9.57s/it]Batches:  78%|███████▊  | 7/9 [01:08<00:21, 10.52s/it]Batches:  89%|████████▉ | 8/9 [01:22<00:11, 11.44s/it]Batches: 100%|██████████| 9/9 [01:37<00:00, 12.66s/it]Batches: 100%|██████████| 9/9 [01:37<00:00, 10.86s/it]
-
-Embedding data for 20200101
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:55,  9.31s/it]Batches:  29%|██▊       | 2/7 [00:19<00:47,  9.51s/it]Batches:  43%|████▎     | 3/7 [00:30<00:39,  9.94s/it]Batches:  57%|█████▋    | 4/7 [00:38<00:28,  9.49s/it]Batches:  71%|███████▏  | 5/7 [00:51<00:20, 10.47s/it]Batches:  86%|████████▌ | 6/7 [01:06<00:11, 11.74s/it]Batches: 100%|██████████| 7/7 [01:18<00:00, 12.02s/it]Batches: 100%|██████████| 7/7 [01:18<00:00, 11.26s/it]
-
-Embedding data for 20200102
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:48,  9.62s/it]Batches:  33%|███▎      | 2/6 [00:20<00:39,  9.95s/it]Batches:  50%|█████     | 3/6 [00:31<00:31, 10.36s/it]Batches:  67%|██████▋   | 4/6 [00:44<00:22, 11.12s/it]Batches:  83%|████████▎ | 5/6 [00:59<00:12, 12.24s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 11.81s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 11.70s/it]
-
-Embedding data for 20200103
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:58,  9.77s/it]Batches:  29%|██▊       | 2/7 [00:20<00:50, 10.15s/it]Batches:  43%|████▎     | 3/7 [00:31<00:41, 10.32s/it]Batches:  57%|█████▋    | 4/7 [00:43<00:32, 10.88s/it]Batches:  71%|███████▏  | 5/7 [00:58<00:23, 11.97s/it]Batches:  86%|████████▌ | 6/7 [01:13<00:12, 12.87s/it]Batches: 100%|██████████| 7/7 [01:27<00:00, 13.23s/it]Batches: 100%|██████████| 7/7 [01:27<00:00, 12.47s/it]
-
-Embedding data for 20200104
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:11<00:57, 11.44s/it]Batches:  33%|███▎      | 2/6 [00:21<00:43, 10.96s/it]Batches:  50%|█████     | 3/6 [00:32<00:33, 11.06s/it]Batches:  67%|██████▋   | 4/6 [00:44<00:22, 11.27s/it]Batches:  83%|████████▎ | 5/6 [01:01<00:12, 12.98s/it]Batches: 100%|██████████| 6/6 [01:12<00:00, 12.32s/it]Batches: 100%|██████████| 6/6 [01:12<00:00, 12.02s/it]
-
-Embedding data for 20200105
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:12<00:49, 12.26s/it]Batches:  40%|████      | 2/5 [00:22<00:35, 11.70s/it]Batches:  60%|██████    | 3/5 [00:36<00:24, 12.33s/it]Batches:  80%|████████  | 4/5 [00:50<00:12, 12.94s/it]Batches: 100%|██████████| 5/5 [01:05<00:00, 13.47s/it]Batches: 100%|██████████| 5/5 [01:05<00:00, 13.11s/it]
-
-Embedding data for 20200106
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:42,  8.52s/it]Batches:  33%|███▎      | 2/6 [00:20<00:38,  9.55s/it]Batches:  50%|█████     | 3/6 [00:32<00:31, 10.40s/it]Batches:  67%|██████▋   | 4/6 [00:47<00:23, 11.68s/it]Batches:  83%|████████▎ | 5/6 [01:07<00:14, 14.02s/it]Batches: 100%|██████████| 6/6 [01:16<00:00, 12.72s/it]Batches: 100%|██████████| 6/6 [01:16<00:00, 12.78s/it]
-
-Embedding data for 20200107
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:10<00:52, 10.55s/it]Batches:  33%|███▎      | 2/6 [00:20<00:41, 10.29s/it]Batches:  50%|█████     | 3/6 [00:32<00:32, 10.76s/it]Batches:  67%|██████▋   | 4/6 [00:44<00:22, 11.26s/it]Batches:  83%|████████▎ | 5/6 [01:01<00:12, 12.95s/it]Batches: 100%|██████████| 6/6 [01:16<00:00, 13.72s/it]Batches: 100%|██████████| 6/6 [01:16<00:00, 12.82s/it]
-
-Embedding data for 20200108
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:10<01:16, 10.96s/it]Batches:  25%|██▌       | 2/8 [00:24<01:09, 11.59s/it]Batches:  38%|███▊      | 3/8 [00:40<01:04, 12.92s/it]Batches:  50%|█████     | 4/8 [00:55<00:54, 13.63s/it]Batches:  62%|██████▎   | 5/8 [01:12<00:43, 14.65s/it]Batches:  75%|███████▌  | 6/8 [01:31<00:31, 15.98s/it]Batches:  88%|████████▊ | 7/8 [01:54<00:18, 18.20s/it]Batches: 100%|██████████| 8/8 [02:10<00:00, 17.34s/it]Batches: 100%|██████████| 8/8 [02:10<00:00, 16.27s/it]
-
-Embedding data for 20200109
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:13<01:18, 13.14s/it]Batches:  29%|██▊       | 2/7 [00:28<01:09, 13.91s/it]Batches:  43%|████▎     | 3/7 [00:42<00:55, 13.87s/it]Batches:  57%|█████▋    | 4/7 [00:59<00:44, 14.79s/it]Batches:  71%|███████▏  | 5/7 [01:16<00:31, 15.54s/it]Batches:  86%|████████▌ | 6/7 [01:37<00:16, 16.95s/it]Batches: 100%|██████████| 7/7 [01:53<00:00, 16.72s/it]Batches: 100%|██████████| 7/7 [01:53<00:00, 16.19s/it]
-
-Embedding data for 20200110
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:13<01:09, 14.00s/it]Batches:  33%|███▎      | 2/6 [00:28<00:56, 14.04s/it]Batches:  50%|█████     | 3/6 [00:44<00:44, 14.77s/it]Batches:  67%|██████▋   | 4/6 [01:00<00:30, 15.04s/it]Batches:  83%|████████▎ | 5/6 [01:21<00:17, 17.02s/it]Batches: 100%|██████████| 6/6 [01:45<00:00, 18.95s/it]Batches: 100%|██████████| 6/6 [01:45<00:00, 17.56s/it]
-
-Embedding data for 20200111
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:15<01:03, 15.89s/it]Batches:  40%|████      | 2/5 [00:29<00:45, 15.22s/it]Batches:  60%|██████    | 3/5 [00:49<00:33, 16.54s/it]Batches:  80%|████████  | 4/5 [01:08<00:17, 17.50s/it]Batches: 100%|██████████| 5/5 [01:32<00:00, 19.19s/it]Batches: 100%|██████████| 5/5 [01:32<00:00, 18.41s/it]
-
-Embedding data for 20200112
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:13<00:41, 13.79s/it]Batches:  50%|█████     | 2/4 [00:30<00:29, 14.74s/it]Batches:  75%|███████▌  | 3/4 [00:54<00:17, 17.51s/it]Batches: 100%|██████████| 4/4 [01:08<00:00, 16.52s/it]Batches: 100%|██████████| 4/4 [01:08<00:00, 17.23s/it]
-
-Embedding data for 20200113
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:13<00:55, 13.98s/it]Batches:  40%|████      | 2/5 [00:30<00:44, 14.75s/it]Batches:  60%|██████    | 3/5 [00:51<00:33, 16.53s/it]Batches:  80%|████████  | 4/5 [01:11<00:17, 17.80s/it]Batches: 100%|██████████| 5/5 [01:25<00:00, 16.57s/it]Batches: 100%|██████████| 5/5 [01:25<00:00, 17.14s/it]
-
-Embedding data for 20200114
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:16<01:04, 16.22s/it]Batches:  40%|████      | 2/5 [00:30<00:46, 15.58s/it]Batches:  60%|██████    | 3/5 [00:48<00:32, 16.34s/it]Batches:  80%|████████  | 4/5 [01:07<00:17, 17.27s/it]Batches: 100%|██████████| 5/5 [01:33<00:00, 19.79s/it]Batches: 100%|██████████| 5/5 [01:33<00:00, 18.71s/it]
-
-Embedding data for 20200115
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:15<01:16, 15.31s/it]Batches:  33%|███▎      | 2/6 [00:31<01:02, 15.52s/it]Batches:  50%|█████     | 3/6 [00:48<00:48, 16.12s/it]Batches:  67%|██████▋   | 4/6 [01:05<00:32, 16.27s/it]Batches:  83%|████████▎ | 5/6 [01:31<00:19, 19.20s/it]Batches: 100%|██████████| 6/6 [01:50<00:00, 19.01s/it]Batches: 100%|██████████| 6/6 [01:50<00:00, 18.35s/it]
-
-Embedding data for 20200116
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:16<01:22, 16.52s/it]Batches:  33%|███▎      | 2/6 [00:31<01:04, 16.04s/it]Batches:  50%|█████     | 3/6 [00:49<00:50, 16.69s/it]Batches:  67%|██████▋   | 4/6 [01:06<00:33, 16.77s/it]Batches:  83%|████████▎ | 5/6 [01:31<00:19, 19.24s/it]Batches: 100%|██████████| 6/6 [01:46<00:00, 17.82s/it]Batches: 100%|██████████| 6/6 [01:46<00:00, 17.69s/it]
-
-Embedding data for 20200117
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:14<01:14, 14.99s/it]Batches:  33%|███▎      | 2/6 [00:31<01:01, 15.37s/it]Batches:  50%|█████     | 3/6 [00:48<00:48, 16.02s/it]Batches:  67%|██████▋   | 4/6 [01:06<00:33, 16.64s/it]Batches:  83%|████████▎ | 5/6 [01:30<00:18, 18.63s/it]Batches: 100%|██████████| 6/6 [01:57<00:00, 21.25s/it]Batches: 100%|██████████| 6/6 [01:57<00:00, 19.59s/it]
-
-Embedding data for 20200118
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:16<01:06, 16.60s/it]Batches:  40%|████      | 2/5 [00:30<00:47, 15.85s/it]Batches:  60%|██████    | 3/5 [00:48<00:33, 16.58s/it]Batches:  80%|████████  | 4/5 [01:09<00:17, 17.73s/it]Batches: 100%|██████████| 5/5 [01:37<00:00, 20.73s/it]Batches: 100%|██████████| 5/5 [01:37<00:00, 19.43s/it]
-
-Embedding data for 20200119
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:14<00:56, 14.22s/it]Batches:  40%|████      | 2/5 [00:31<00:45, 15.23s/it]Batches:  60%|██████    | 3/5 [00:51<00:32, 16.45s/it]Batches:  80%|████████  | 4/5 [01:10<00:17, 17.19s/it]Batches: 100%|██████████| 5/5 [01:33<00:00, 18.97s/it]Batches: 100%|██████████| 5/5 [01:33<00:00, 18.63s/it]
-
-Embedding data for 20200120
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/11 [00:00<?, ?it/s]Batches:   9%|▉         | 1/11 [00:13<02:14, 13.49s/it]Batches:  18%|█▊        | 2/11 [00:25<01:56, 12.99s/it]Batches:  27%|██▋       | 3/11 [00:38<01:43, 12.91s/it]Batches:  36%|███▋      | 4/11 [00:52<01:33, 13.39s/it]Batches:  45%|████▌     | 5/11 [01:07<01:22, 13.78s/it]Batches:  55%|█████▍    | 6/11 [01:22<01:10, 14.20s/it]Batches:  64%|██████▎   | 7/11 [01:35<00:55, 13.97s/it]Batches:  73%|███████▎  | 8/11 [01:52<00:44, 14.74s/it]Batches:  82%|████████▏ | 9/11 [02:11<00:32, 16.18s/it]Batches:  91%|█████████ | 10/11 [02:36<00:18, 18.85s/it]Batches: 100%|██████████| 11/11 [02:51<00:00, 17.53s/it]Batches: 100%|██████████| 11/11 [02:51<00:00, 15.59s/it]
-
-Embedding data for 20200121
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:13<01:08, 13.69s/it]Batches:  33%|███▎      | 2/6 [00:28<00:56, 14.06s/it]Batches:  50%|█████     | 3/6 [00:42<00:41, 13.86s/it]Batches:  67%|██████▋   | 4/6 [00:59<00:29, 14.91s/it]Batches:  83%|████████▎ | 5/6 [01:19<00:16, 16.62s/it]Batches: 100%|██████████| 6/6 [01:36<00:00, 16.51s/it]Batches: 100%|██████████| 6/6 [01:36<00:00, 16.04s/it]
-
-Embedding data for 20200122
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/11 [00:00<?, ?it/s]Batches:   9%|▉         | 1/11 [00:13<02:11, 13.13s/it]Batches:  18%|█▊        | 2/11 [00:27<02:01, 13.50s/it]Batches:  27%|██▋       | 3/11 [00:40<01:45, 13.24s/it]Batches:  36%|███▋      | 4/11 [00:54<01:36, 13.73s/it]Batches:  45%|████▌     | 5/11 [01:10<01:25, 14.33s/it]Batches:  55%|█████▍    | 6/11 [01:26<01:14, 14.89s/it]Batches:  64%|██████▎   | 7/11 [01:44<01:02, 15.70s/it]Batches:  73%|███████▎  | 8/11 [02:00<00:47, 15.70s/it]Batches:  82%|████████▏ | 9/11 [02:18<00:32, 16.34s/it]Batches:  91%|█████████ | 10/11 [02:39<00:17, 17.84s/it]Batches: 100%|██████████| 11/11 [02:55<00:00, 17.29s/it]Batches: 100%|██████████| 11/11 [02:55<00:00, 15.94s/it]
-
-Embedding data for 20200123
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:12<01:30, 12.88s/it]Batches:  25%|██▌       | 2/8 [00:27<01:19, 13.29s/it]Batches:  38%|███▊      | 3/8 [00:41<01:08, 13.68s/it]Batches:  50%|█████     | 4/8 [00:57<00:57, 14.43s/it]Batches:  62%|██████▎   | 5/8 [01:14<00:45, 15.09s/it]Batches:  75%|███████▌  | 6/8 [01:37<00:34, 17.32s/it]Batches:  88%|████████▊ | 7/8 [01:59<00:18, 18.91s/it]Batches: 100%|██████████| 8/8 [02:10<00:00, 16.62s/it]Batches: 100%|██████████| 8/8 [02:10<00:00, 16.37s/it]
-
-Embedding data for 20200124
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:14<01:10, 14.10s/it]Batches:  33%|███▎      | 2/6 [00:28<00:57, 14.26s/it]Batches:  50%|█████     | 3/6 [00:45<00:45, 15.03s/it]Batches:  67%|██████▋   | 4/6 [01:00<00:29, 14.93s/it]Batches:  83%|████████▎ | 5/6 [01:18<00:15, 15.84s/it]Batches: 100%|██████████| 6/6 [01:34<00:00, 15.99s/it]Batches: 100%|██████████| 6/6 [01:34<00:00, 15.76s/it]
-
-Embedding data for 20200125
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/42 [00:00<?, ?it/s]Batches:   2%|▏         | 1/42 [00:12<08:13, 12.05s/it]Batches:   5%|▍         | 2/42 [00:24<08:12, 12.30s/it]Batches:   7%|▋         | 3/42 [00:38<08:10, 12.58s/it]Batches:  10%|▉         | 4/42 [00:50<08:00, 12.63s/it]Batches:  12%|█▏        | 5/42 [01:04<07:58, 12.93s/it]Batches:  14%|█▍        | 6/42 [01:16<07:31, 12.53s/it]Batches:  17%|█▋        | 7/42 [01:28<07:17, 12.49s/it]Batches:  19%|█▉        | 8/42 [01:41<07:13, 12.76s/it]Batches:  21%|██▏       | 9/42 [01:55<07:11, 13.09s/it]Batches:  24%|██▍       | 10/42 [02:09<07:04, 13.27s/it]Batches:  26%|██▌       | 11/42 [02:22<06:52, 13.30s/it]Batches:  29%|██▊       | 12/42 [02:35<06:33, 13.11s/it]Batches:  31%|███       | 13/42 [02:48<06:19, 13.09s/it]Batches:  33%|███▎      | 14/42 [03:02<06:16, 13.46s/it]Batches:  36%|███▌      | 15/42 [03:18<06:17, 13.97s/it]Batches:  38%|███▊      | 16/42 [03:32<06:03, 13.97s/it]Batches:  40%|████      | 17/42 [03:43<05:33, 13.35s/it]Batches:  43%|████▎     | 18/42 [03:58<05:32, 13.84s/it]Batches:  45%|████▌     | 19/42 [04:14<05:28, 14.28s/it]Batches:  48%|████▊     | 20/42 [04:28<05:13, 14.25s/it]Batches:  50%|█████     | 21/42 [04:40<04:47, 13.67s/it]Batches:  52%|█████▏    | 22/42 [04:57<04:51, 14.60s/it]Batches:  55%|█████▍    | 23/42 [05:13<04:47, 15.12s/it]Batches:  57%|█████▋    | 24/42 [05:31<04:45, 15.88s/it]Batches:  60%|█████▉    | 25/42 [05:45<04:19, 15.29s/it]Batches:  62%|██████▏   | 26/42 [06:01<04:07, 15.49s/it]Batches:  64%|██████▍   | 27/42 [06:18<04:01, 16.07s/it]Batches:  67%|██████▋   | 28/42 [06:35<03:46, 16.19s/it]Batches:  69%|██████▉   | 29/42 [06:51<03:29, 16.08s/it]Batches:  71%|███████▏  | 30/42 [07:06<03:10, 15.84s/it]Batches:  74%|███████▍  | 31/42 [07:24<03:01, 16.47s/it]Batches:  76%|███████▌  | 32/42 [07:42<02:50, 17.04s/it]Batches:  79%|███████▊  | 33/42 [08:01<02:37, 17.54s/it]Batches:  81%|████████  | 34/42 [08:19<02:20, 17.60s/it]Batches:  83%|████████▎ | 35/42 [08:37<02:05, 17.91s/it]Batches:  86%|████████▌ | 36/42 [08:54<01:45, 17.64s/it]Batches:  88%|████████▊ | 37/42 [09:13<01:29, 17.99s/it]Batches:  90%|█████████ | 38/42 [09:33<01:14, 18.72s/it]Batches:  93%|█████████▎| 39/42 [09:53<00:57, 19.02s/it]Batches:  95%|█████████▌| 40/42 [10:10<00:36, 18.45s/it]Batches:  98%|█████████▊| 41/42 [10:33<00:19, 19.68s/it]Batches: 100%|██████████| 42/42 [10:48<00:00, 18.24s/it]Batches: 100%|██████████| 42/42 [10:48<00:00, 15.43s/it]
-
-Embedding data for 20200126
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/41 [00:00<?, ?it/s]Batches:   2%|▏         | 1/41 [00:10<06:58, 10.46s/it]Batches:   5%|▍         | 2/41 [00:20<06:45, 10.40s/it]Batches:   7%|▋         | 3/41 [00:31<06:43, 10.62s/it]Batches:  10%|▉         | 4/41 [00:45<07:03, 11.44s/it]Batches:  12%|█▏        | 5/41 [00:58<07:16, 12.13s/it]Batches:  15%|█▍        | 6/41 [01:12<07:18, 12.53s/it]Batches:  17%|█▋        | 7/41 [01:24<06:58, 12.32s/it]Batches:  20%|█▉        | 8/41 [01:38<07:09, 13.02s/it]Batches:  22%|██▏       | 9/41 [01:51<06:55, 12.97s/it]Batches:  24%|██▍       | 10/41 [02:03<06:32, 12.67s/it]Batches:  27%|██▋       | 11/41 [02:16<06:17, 12.58s/it]Batches:  29%|██▉       | 12/41 [02:29<06:13, 12.86s/it]Batches:  32%|███▏      | 13/41 [02:44<06:15, 13.41s/it]Batches:  34%|███▍      | 14/41 [02:58<06:05, 13.52s/it]Batches:  37%|███▋      | 15/41 [03:08<05:30, 12.73s/it]Batches:  39%|███▉      | 16/41 [03:22<05:21, 12.87s/it]Batches:  41%|████▏     | 17/41 [03:36<05:16, 13.21s/it]Batches:  44%|████▍     | 18/41 [03:45<04:35, 11.97s/it]Batches:  46%|████▋     | 19/41 [03:56<04:20, 11.85s/it]Batches:  49%|████▉     | 20/41 [04:11<04:25, 12.63s/it]Batches:  51%|█████     | 21/41 [04:26<04:27, 13.38s/it]Batches:  54%|█████▎    | 22/41 [04:39<04:10, 13.20s/it]Batches:  56%|█████▌    | 23/41 [04:55<04:12, 14.02s/it]Batches:  59%|█████▊    | 24/41 [05:10<04:06, 14.48s/it]Batches:  61%|██████    | 25/41 [05:23<03:43, 14.00s/it]Batches:  63%|██████▎   | 26/41 [05:37<03:28, 13.91s/it]Batches:  66%|██████▌   | 27/41 [05:53<03:24, 14.60s/it]Batches:  68%|██████▊   | 28/41 [06:07<03:08, 14.50s/it]Batches:  71%|███████   | 29/41 [06:22<02:55, 14.66s/it]Batches:  73%|███████▎  | 30/41 [06:40<02:50, 15.50s/it]Batches:  76%|███████▌  | 31/41 [06:54<02:32, 15.21s/it]Batches:  78%|███████▊  | 32/41 [07:08<02:14, 14.91s/it]Batches:  80%|████████  | 33/41 [07:28<02:09, 16.17s/it]Batches:  83%|████████▎ | 34/41 [07:45<01:54, 16.43s/it]Batches:  85%|████████▌ | 35/41 [08:03<01:42, 17.15s/it]Batches:  88%|████████▊ | 36/41 [08:20<01:24, 16.95s/it]Batches:  90%|█████████ | 37/41 [08:36<01:06, 16.72s/it]Batches:  93%|█████████▎| 38/41 [08:57<00:54, 18.10s/it]Batches:  95%|█████████▌| 39/41 [09:19<00:38, 19.04s/it]Batches:  98%|█████████▊| 40/41 [09:39<00:19, 19.35s/it]Batches: 100%|██████████| 41/41 [09:52<00:00, 17.56s/it]Batches: 100%|██████████| 41/41 [09:52<00:00, 14.45s/it]
-
-Embedding data for 20200127
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/23 [00:00<?, ?it/s]Batches:   4%|▍         | 1/23 [00:10<03:51, 10.53s/it]Batches:   9%|▊         | 2/23 [00:21<03:46, 10.78s/it]Batches:  13%|█▎        | 3/23 [00:33<03:37, 10.88s/it]Batches:  17%|█▋        | 4/23 [00:46<03:42, 11.72s/it]Batches:  22%|██▏       | 5/23 [00:59<03:39, 12.17s/it]Batches:  26%|██▌       | 6/23 [01:12<03:26, 12.16s/it]Batches:  30%|███       | 7/23 [01:26<03:23, 12.72s/it]Batches:  35%|███▍      | 8/23 [01:38<03:08, 12.55s/it]Batches:  39%|███▉      | 9/23 [01:50<02:56, 12.61s/it]Batches:  43%|████▎     | 10/23 [02:01<02:35, 11.98s/it]Batches:  48%|████▊     | 11/23 [02:14<02:27, 12.27s/it]Batches:  52%|█████▏    | 12/23 [02:24<02:09, 11.74s/it]Batches:  57%|█████▋    | 13/23 [02:38<02:03, 12.34s/it]Batches:  61%|██████    | 14/23 [02:51<01:53, 12.59s/it]Batches:  65%|██████▌   | 15/23 [03:05<01:42, 12.79s/it]Batches:  70%|██████▉   | 16/23 [03:20<01:34, 13.52s/it]Batches:  74%|███████▍  | 17/23 [03:35<01:24, 14.13s/it]Batches:  78%|███████▊  | 18/23 [03:48<01:08, 13.80s/it]Batches:  83%|████████▎ | 19/23 [04:04<00:57, 14.30s/it]Batches:  87%|████████▋ | 20/23 [04:20<00:44, 14.97s/it]Batches:  91%|█████████▏| 21/23 [04:39<00:31, 15.95s/it]Batches:  96%|█████████▌| 22/23 [04:59<00:17, 17.14s/it]Batches: 100%|██████████| 23/23 [05:15<00:00, 16.87s/it]Batches: 100%|██████████| 23/23 [05:15<00:00, 13.71s/it]
-
-Embedding data for 20200128
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/13 [00:00<?, ?it/s]Batches:   8%|▊         | 1/13 [00:12<02:27, 12.30s/it]Batches:  15%|█▌        | 2/13 [00:23<02:12, 12.04s/it]Batches:  23%|██▎       | 3/13 [00:38<02:07, 12.73s/it]Batches:  31%|███       | 4/13 [00:49<01:51, 12.38s/it]Batches:  38%|███▊      | 5/13 [01:01<01:38, 12.28s/it]Batches:  46%|████▌     | 6/13 [01:15<01:29, 12.73s/it]Batches:  54%|█████▍    | 7/13 [01:27<01:15, 12.60s/it]Batches:  62%|██████▏   | 8/13 [01:41<01:04, 12.98s/it]Batches:  69%|██████▉   | 9/13 [01:57<00:55, 13.99s/it]Batches:  77%|███████▋  | 10/13 [02:13<00:43, 14.37s/it]Batches:  85%|████████▍ | 11/13 [02:30<00:30, 15.37s/it]Batches:  92%|█████████▏| 12/13 [02:49<00:16, 16.19s/it]Batches: 100%|██████████| 13/13 [03:02<00:00, 15.34s/it]Batches: 100%|██████████| 13/13 [03:02<00:00, 14.03s/it]
-
-Embedding data for 20200129
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/11 [00:00<?, ?it/s]Batches:   9%|▉         | 1/11 [00:12<02:09, 12.96s/it]Batches:  18%|█▊        | 2/11 [00:24<01:51, 12.39s/it]Batches:  27%|██▋       | 3/11 [00:37<01:40, 12.62s/it]Batches:  36%|███▋      | 4/11 [00:50<01:29, 12.74s/it]Batches:  45%|████▌     | 5/11 [01:04<01:19, 13.18s/it]Batches:  55%|█████▍    | 6/11 [01:18<01:07, 13.50s/it]Batches:  64%|██████▎   | 7/11 [01:33<00:55, 13.91s/it]Batches:  73%|███████▎  | 8/11 [01:48<00:42, 14.13s/it]Batches:  82%|████████▏ | 9/11 [02:04<00:29, 14.89s/it]Batches:  91%|█████████ | 10/11 [02:23<00:16, 16.11s/it]Batches: 100%|██████████| 11/11 [02:44<00:00, 17.37s/it]Batches: 100%|██████████| 11/11 [02:44<00:00, 14.92s/it]
-
-Embedding data for 20200130
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/14 [00:00<?, ?it/s]Batches:   7%|▋         | 1/14 [00:12<02:40, 12.32s/it]Batches:  14%|█▍        | 2/14 [00:22<02:21, 11.80s/it]Batches:  21%|██▏       | 3/14 [00:34<02:10, 11.85s/it]Batches:  29%|██▊       | 4/14 [00:43<01:49, 10.92s/it]Batches:  36%|███▌      | 5/14 [00:52<01:34, 10.46s/it]Batches:  43%|████▎     | 6/14 [01:03<01:24, 10.52s/it]Batches:  50%|█████     | 7/14 [01:14<01:15, 10.74s/it]Batches:  57%|█████▋    | 8/14 [01:27<01:07, 11.20s/it]Batches:  64%|██████▍   | 9/14 [01:38<00:56, 11.28s/it]Batches:  71%|███████▏  | 10/14 [01:51<00:47, 11.82s/it]Batches:  79%|███████▊  | 11/14 [02:05<00:36, 12.29s/it]Batches:  86%|████████▌ | 12/14 [02:19<00:25, 12.98s/it]Batches:  93%|█████████▎| 13/14 [02:35<00:13, 13.88s/it]Batches: 100%|██████████| 14/14 [02:48<00:00, 13.49s/it]Batches: 100%|██████████| 14/14 [02:48<00:00, 12.02s/it]
-
-Embedding data for 20200131
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/14 [00:00<?, ?it/s]Batches:   7%|▋         | 1/14 [00:09<02:03,  9.50s/it]Batches:  14%|█▍        | 2/14 [00:18<01:52,  9.37s/it]Batches:  21%|██▏       | 3/14 [00:28<01:44,  9.49s/it]Batches:  29%|██▊       | 4/14 [00:38<01:37,  9.74s/it]Batches:  36%|███▌      | 5/14 [00:49<01:30, 10.10s/it]Batches:  43%|████▎     | 6/14 [01:00<01:22, 10.35s/it]Batches:  50%|█████     | 7/14 [01:12<01:15, 10.83s/it]Batches:  57%|█████▋    | 8/14 [01:24<01:07, 11.29s/it]Batches:  64%|██████▍   | 9/14 [01:37<00:58, 11.67s/it]Batches:  71%|███████▏  | 10/14 [01:49<00:47, 11.90s/it]Batches:  79%|███████▊  | 11/14 [02:03<00:36, 12.30s/it]Batches:  86%|████████▌ | 12/14 [02:17<00:26, 13.08s/it]Batches:  93%|█████████▎| 13/14 [02:36<00:14, 14.67s/it]Batches: 100%|██████████| 14/14 [02:48<00:00, 13.97s/it]Batches: 100%|██████████| 14/14 [02:48<00:00, 12.05s/it]
-
-Embedding data for 20200201
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:09<01:25,  9.48s/it]Batches:  20%|██        | 2/10 [00:19<01:17,  9.71s/it]Batches:  30%|███       | 3/10 [00:30<01:10, 10.09s/it]Batches:  40%|████      | 4/10 [00:42<01:03, 10.56s/it]Batches:  50%|█████     | 5/10 [00:53<00:54, 10.86s/it]Batches:  60%|██████    | 6/10 [01:05<00:44, 11.19s/it]Batches:  70%|███████   | 7/10 [01:18<00:35, 11.73s/it]Batches:  80%|████████  | 8/10 [01:32<00:24, 12.30s/it]Batches:  90%|█████████ | 9/10 [01:44<00:12, 12.15s/it]Batches: 100%|██████████| 10/10 [01:55<00:00, 11.78s/it]Batches: 100%|██████████| 10/10 [01:55<00:00, 11.52s/it]
-
-Embedding data for 20200202
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:37,  9.27s/it]Batches:  40%|████      | 2/5 [00:20<00:29,  9.84s/it]Batches:  60%|██████    | 3/5 [00:32<00:20, 10.37s/it]Batches:  80%|████████  | 4/5 [00:44<00:10, 10.96s/it]Batches: 100%|██████████| 5/5 [01:02<00:00, 13.08s/it]Batches: 100%|██████████| 5/5 [01:02<00:00, 12.48s/it]
-
-Embedding data for 20200203
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:09<01:04,  9.23s/it]Batches:  25%|██▌       | 2/8 [00:19<00:56,  9.45s/it]Batches:  38%|███▊      | 3/8 [00:29<00:47,  9.56s/it]Batches:  50%|█████     | 4/8 [00:40<00:40, 10.15s/it]Batches:  62%|██████▎   | 5/8 [00:52<00:32, 10.74s/it]Batches:  75%|███████▌  | 6/8 [01:06<00:23, 11.74s/it]Batches:  88%|████████▊ | 7/8 [01:25<00:13, 13.71s/it]Batches: 100%|██████████| 8/8 [01:33<00:00, 12.26s/it]Batches: 100%|██████████| 8/8 [01:33<00:00, 11.74s/it]
-
-Embedding data for 20200204
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:09<01:03,  9.06s/it]Batches:  25%|██▌       | 2/8 [00:18<00:55,  9.31s/it]Batches:  38%|███▊      | 3/8 [00:29<00:48,  9.69s/it]Batches:  50%|█████     | 4/8 [00:40<00:40, 10.06s/it]Batches:  62%|██████▎   | 5/8 [00:52<00:31, 10.58s/it]Batches:  75%|███████▌  | 6/8 [01:05<00:23, 11.51s/it]Batches:  88%|████████▊ | 7/8 [01:20<00:12, 12.38s/it]Batches: 100%|██████████| 8/8 [01:31<00:00, 11.98s/it]Batches: 100%|██████████| 8/8 [01:31<00:00, 11.43s/it]
-
-Embedding data for 20200205
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:08<01:10,  8.85s/it]Batches:  22%|██▏       | 2/9 [00:18<01:04,  9.15s/it]Batches:  33%|███▎      | 3/9 [00:28<00:55,  9.28s/it]Batches:  44%|████▍     | 4/9 [00:38<00:48,  9.64s/it]Batches:  56%|█████▌    | 5/9 [00:50<00:41, 10.29s/it]Batches:  67%|██████▋   | 6/9 [01:02<00:32, 10.91s/it]Batches:  78%|███████▊  | 7/9 [01:16<00:23, 11.57s/it]Batches:  89%|████████▉ | 8/9 [01:31<00:12, 12.77s/it]Batches: 100%|██████████| 9/9 [01:43<00:00, 12.56s/it]Batches: 100%|██████████| 9/9 [01:43<00:00, 11.52s/it]
-
-Embedding data for 20200206
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:14,  9.36s/it]Batches:  22%|██▏       | 2/9 [00:19<01:08,  9.72s/it]Batches:  33%|███▎      | 3/9 [00:30<00:59,  9.89s/it]Batches:  44%|████▍     | 4/9 [00:41<00:51, 10.23s/it]Batches:  56%|█████▌    | 5/9 [00:51<00:41, 10.38s/it]Batches:  67%|██████▋   | 6/9 [01:03<00:32, 10.68s/it]Batches:  78%|███████▊  | 7/9 [01:15<00:22, 11.26s/it]Batches:  89%|████████▉ | 8/9 [01:30<00:12, 12.24s/it]Batches: 100%|██████████| 9/9 [01:45<00:00, 13.09s/it]Batches: 100%|██████████| 9/9 [01:45<00:00, 11.73s/it]
-
-Embedding data for 20200207
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/11 [00:00<?, ?it/s]Batches:   9%|▉         | 1/11 [00:08<01:26,  8.66s/it]Batches:  18%|█▊        | 2/11 [00:18<01:22,  9.14s/it]Batches:  27%|██▋       | 3/11 [00:28<01:14,  9.33s/it]Batches:  36%|███▋      | 4/11 [00:38<01:07,  9.60s/it]Batches:  45%|████▌     | 5/11 [00:49<00:59,  9.84s/it]Batches:  55%|█████▍    | 6/11 [00:59<00:50, 10.06s/it]Batches:  64%|██████▎   | 7/11 [01:11<00:41, 10.48s/it]Batches:  73%|███████▎  | 8/11 [01:23<00:32, 10.94s/it]Batches:  82%|████████▏ | 9/11 [01:32<00:21, 10.54s/it]Batches:  91%|█████████ | 10/11 [01:45<00:11, 11.28s/it]Batches: 100%|██████████| 11/11 [02:00<00:00, 12.31s/it]Batches: 100%|██████████| 11/11 [02:00<00:00, 10.97s/it]
-
-Embedding data for 20200208
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:57,  9.55s/it]Batches:  29%|██▊       | 2/7 [00:19<00:47,  9.54s/it]Batches:  43%|████▎     | 3/7 [00:28<00:37,  9.43s/it]Batches:  57%|█████▋    | 4/7 [00:39<00:30, 10.01s/it]Batches:  71%|███████▏  | 5/7 [00:52<00:21, 10.91s/it]Batches:  86%|████████▌ | 6/7 [01:06<00:11, 11.95s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 12.57s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 11.57s/it]
-
-Embedding data for 20200209
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:46,  9.21s/it]Batches:  33%|███▎      | 2/6 [00:18<00:37,  9.38s/it]Batches:  50%|█████     | 3/6 [00:29<00:29,  9.76s/it]Batches:  67%|██████▋   | 4/6 [00:42<00:21, 10.64s/it]Batches:  83%|████████▎ | 5/6 [00:56<00:11, 11.78s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 12.06s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.58s/it]
-
-Embedding data for 20200210
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:47,  9.52s/it]Batches:  33%|███▎      | 2/6 [00:20<00:39,  9.83s/it]Batches:  50%|█████     | 3/6 [00:30<00:30, 10.08s/it]Batches:  67%|██████▋   | 4/6 [00:41<00:20, 10.39s/it]Batches:  83%|████████▎ | 5/6 [00:55<00:11, 11.34s/it]Batches: 100%|██████████| 6/6 [01:13<00:00, 13.39s/it]Batches: 100%|██████████| 6/6 [01:13<00:00, 12.26s/it]
-
-Embedding data for 20200211
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:53,  8.90s/it]Batches:  29%|██▊       | 2/7 [00:18<00:45,  9.11s/it]Batches:  43%|████▎     | 3/7 [00:28<00:37,  9.45s/it]Batches:  57%|█████▋    | 4/7 [00:40<00:30, 10.05s/it]Batches:  71%|███████▏  | 5/7 [00:52<00:21, 10.87s/it]Batches:  86%|████████▌ | 6/7 [01:07<00:11, 11.86s/it]Batches: 100%|██████████| 7/7 [01:26<00:00, 14.09s/it]Batches: 100%|██████████| 7/7 [01:26<00:00, 12.35s/it]
-
-Embedding data for 20200212
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:12,  9.06s/it]Batches:  22%|██▏       | 2/9 [00:18<01:03,  9.10s/it]Batches:  33%|███▎      | 3/9 [00:28<00:55,  9.29s/it]Batches:  44%|████▍     | 4/9 [00:38<00:48,  9.75s/it]Batches:  56%|█████▌    | 5/9 [00:50<00:41, 10.32s/it]Batches:  67%|██████▋   | 6/9 [01:02<00:32, 10.88s/it]Batches:  78%|███████▊  | 7/9 [01:15<00:23, 11.62s/it]Batches:  89%|████████▉ | 8/9 [01:30<00:12, 12.60s/it]Batches: 100%|██████████| 9/9 [01:40<00:00, 11.81s/it]Batches: 100%|██████████| 9/9 [01:40<00:00, 11.21s/it]
-
-Embedding data for 20200213
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:17,  9.73s/it]Batches:  22%|██▏       | 2/9 [00:19<01:08,  9.83s/it]Batches:  33%|███▎      | 3/9 [00:29<00:59,  9.90s/it]Batches:  44%|████▍     | 4/9 [00:39<00:49,  9.87s/it]Batches:  56%|█████▌    | 5/9 [00:51<00:41, 10.38s/it]Batches:  67%|██████▋   | 6/9 [01:04<00:33, 11.20s/it]Batches:  78%|███████▊  | 7/9 [01:18<00:24, 12.02s/it]Batches:  89%|████████▉ | 8/9 [01:33<00:13, 13.13s/it]Batches: 100%|██████████| 9/9 [01:44<00:00, 12.22s/it]Batches: 100%|██████████| 9/9 [01:44<00:00, 11.57s/it]
-
-Embedding data for 20200214
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:06<01:02,  6.89s/it]Batches:  20%|██        | 2/10 [00:17<01:02,  7.86s/it]Batches:  30%|███       | 3/10 [00:27<01:00,  8.66s/it]Batches:  40%|████      | 4/10 [00:37<00:54,  9.01s/it]Batches:  50%|█████     | 5/10 [00:48<00:47,  9.57s/it]Batches:  60%|██████    | 6/10 [00:59<00:40, 10.19s/it]Batches:  70%|███████   | 7/10 [01:12<00:32, 10.91s/it]Batches:  80%|████████  | 8/10 [01:26<00:23, 11.89s/it]Batches:  90%|█████████ | 9/10 [01:41<00:12, 12.68s/it]Batches: 100%|██████████| 10/10 [01:51<00:00, 11.96s/it]Batches: 100%|██████████| 10/10 [01:51<00:00, 11.14s/it]
-
-Embedding data for 20200215
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/24 [00:00<?, ?it/s]Batches:   4%|▍         | 1/24 [00:09<03:34,  9.33s/it]Batches:   8%|▊         | 2/24 [00:18<03:23,  9.25s/it]Batches:  12%|█▎        | 3/24 [00:27<03:12,  9.17s/it]Batches:  17%|█▋        | 4/24 [00:36<03:04,  9.21s/it]Batches:  21%|██        | 5/24 [00:47<03:02,  9.60s/it]Batches:  25%|██▌       | 6/24 [00:56<02:53,  9.63s/it]Batches:  29%|██▉       | 7/24 [01:06<02:45,  9.74s/it]Batches:  33%|███▎      | 8/24 [01:15<02:31,  9.45s/it]Batches:  38%|███▊      | 9/24 [01:26<02:27,  9.83s/it]Batches:  42%|████▏     | 10/24 [01:36<02:18,  9.91s/it]Batches:  46%|████▌     | 11/24 [01:46<02:11, 10.09s/it]Batches:  50%|█████     | 12/24 [01:57<02:02, 10.22s/it]Batches:  54%|█████▍    | 13/24 [02:08<01:53, 10.32s/it]Batches:  58%|█████▊    | 14/24 [02:19<01:45, 10.52s/it]Batches:  62%|██████▎   | 15/24 [02:29<01:35, 10.57s/it]Batches:  67%|██████▋   | 16/24 [02:41<01:26, 10.85s/it]Batches:  71%|███████   | 17/24 [02:52<01:17, 11.13s/it]Batches:  75%|███████▌  | 18/24 [03:03<01:06, 11.03s/it]Batches:  79%|███████▉  | 19/24 [03:16<00:57, 11.41s/it]Batches:  83%|████████▎ | 20/24 [03:30<00:48, 12.19s/it]Batches:  88%|████████▊ | 21/24 [03:44<00:38, 12.76s/it]Batches:  92%|█████████▏| 22/24 [03:58<00:26, 13.33s/it]Batches:  96%|█████████▌| 23/24 [04:14<00:13, 13.92s/it]Batches: 100%|██████████| 24/24 [04:28<00:00, 14.11s/it]Batches: 100%|██████████| 24/24 [04:28<00:00, 11.20s/it]
-
-Embedding data for 20200216
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/37 [00:00<?, ?it/s]Batches:   3%|▎         | 1/37 [00:08<04:57,  8.26s/it]Batches:   5%|▌         | 2/37 [00:18<05:05,  8.72s/it]Batches:   8%|▊         | 3/37 [00:27<05:03,  8.92s/it]Batches:  11%|█         | 4/37 [00:36<04:56,  8.98s/it]Batches:  14%|█▎        | 5/37 [00:45<04:47,  9.00s/it]Batches:  16%|█▌        | 6/37 [00:55<04:47,  9.29s/it]Batches:  19%|█▉        | 7/37 [01:04<04:39,  9.31s/it]Batches:  22%|██▏       | 8/37 [01:14<04:30,  9.34s/it]Batches:  24%|██▍       | 9/37 [01:23<04:19,  9.27s/it]Batches:  27%|██▋       | 10/37 [01:33<04:12,  9.37s/it]Batches:  30%|██▉       | 11/37 [01:42<04:05,  9.42s/it]Batches:  32%|███▏      | 12/37 [01:52<03:57,  9.49s/it]Batches:  35%|███▌      | 13/37 [02:03<03:58,  9.95s/it]Batches:  38%|███▊      | 14/37 [02:13<03:48,  9.95s/it]Batches:  41%|████      | 15/37 [02:23<03:40, 10.01s/it]Batches:  43%|████▎     | 16/37 [02:33<03:30, 10.03s/it]Batches:  46%|████▌     | 17/37 [02:43<03:22, 10.11s/it]Batches:  49%|████▊     | 18/37 [02:54<03:18, 10.45s/it]Batches:  51%|█████▏    | 19/37 [03:05<03:10, 10.60s/it]Batches:  54%|█████▍    | 20/37 [03:15<02:54, 10.24s/it]Batches:  57%|█████▋    | 21/37 [03:27<02:51, 10.70s/it]Batches:  59%|█████▉    | 22/37 [03:37<02:37, 10.52s/it]Batches:  62%|██████▏   | 23/37 [03:45<02:17,  9.79s/it]Batches:  65%|██████▍   | 24/37 [03:55<02:10, 10.02s/it]Batches:  68%|██████▊   | 25/37 [04:06<02:02, 10.18s/it]Batches:  70%|███████   | 26/37 [04:19<02:01, 11.04s/it]Batches:  73%|███████▎  | 27/37 [04:31<01:52, 11.22s/it]Batches:  76%|███████▌  | 28/37 [04:42<01:42, 11.43s/it]Batches:  78%|███████▊  | 29/37 [04:53<01:28, 11.12s/it]Batches:  81%|████████  | 30/37 [05:05<01:20, 11.55s/it]Batches:  84%|████████▍ | 31/37 [05:18<01:11, 11.84s/it]Batches:  86%|████████▋ | 32/37 [05:31<01:00, 12.05s/it]Batches:  89%|████████▉ | 33/37 [05:43<00:49, 12.27s/it]Batches:  92%|█████████▏| 34/37 [05:57<00:38, 12.69s/it]Batches:  95%|█████████▍| 35/37 [06:11<00:26, 13.18s/it]Batches:  97%|█████████▋| 36/37 [06:26<00:13, 13.56s/it]Batches: 100%|██████████| 37/37 [06:41<00:00, 13.98s/it]Batches: 100%|██████████| 37/37 [06:41<00:00, 10.84s/it]
-
-Embedding data for 20200217
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:46,  9.33s/it]Batches:  33%|███▎      | 2/6 [00:20<00:39,  9.90s/it]Batches:  50%|█████     | 3/6 [00:32<00:31, 10.55s/it]Batches:  67%|██████▋   | 4/6 [00:45<00:22, 11.22s/it]Batches:  83%|████████▎ | 5/6 [00:59<00:11, 11.97s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.54s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.61s/it]
-
-Embedding data for 20200218
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:49,  9.85s/it]Batches:  33%|███▎      | 2/6 [00:17<00:37,  9.33s/it]Batches:  50%|█████     | 3/6 [00:30<00:30, 10.24s/it]Batches:  67%|██████▋   | 4/6 [00:43<00:22, 11.04s/it]Batches:  83%|████████▎ | 5/6 [00:59<00:12, 12.51s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.55s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.41s/it]
-
-Embedding data for 20200219
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:45,  9.16s/it]Batches:  33%|███▎      | 2/6 [00:18<00:36,  9.18s/it]Batches:  50%|█████     | 3/6 [00:28<00:28,  9.57s/it]Batches:  67%|██████▋   | 4/6 [00:41<00:20, 10.44s/it]Batches:  83%|████████▎ | 5/6 [00:51<00:10, 10.44s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.80s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.57s/it]
-
-Embedding data for 20200220
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:09<01:08,  9.72s/it]Batches:  25%|██▌       | 2/8 [00:18<00:56,  9.43s/it]Batches:  38%|███▊      | 3/8 [00:27<00:47,  9.45s/it]Batches:  50%|█████     | 4/8 [00:37<00:38,  9.58s/it]Batches:  62%|██████▎   | 5/8 [00:49<00:30, 10.18s/it]Batches:  75%|███████▌  | 6/8 [01:02<00:21, 10.97s/it]Batches:  88%|████████▊ | 7/8 [01:13<00:11, 11.02s/it]Batches: 100%|██████████| 8/8 [01:26<00:00, 11.79s/it]Batches: 100%|██████████| 8/8 [01:26<00:00, 10.87s/it]
-
-Embedding data for 20200221
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:10<01:00, 10.05s/it]Batches:  29%|██▊       | 2/7 [00:19<00:49,  9.93s/it]Batches:  43%|████▎     | 3/7 [00:29<00:39,  9.87s/it]Batches:  57%|█████▋    | 4/7 [00:40<00:30, 10.30s/it]Batches:  71%|███████▏  | 5/7 [00:53<00:22, 11.03s/it]Batches:  86%|████████▌ | 6/7 [01:08<00:12, 12.33s/it]Batches: 100%|██████████| 7/7 [01:19<00:00, 11.74s/it]Batches: 100%|██████████| 7/7 [01:19<00:00, 11.31s/it]
-
-Embedding data for 20200222
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:16,  9.54s/it]Batches:  22%|██▏       | 2/9 [00:18<01:05,  9.43s/it]Batches:  33%|███▎      | 3/9 [00:28<00:56,  9.49s/it]Batches:  44%|████▍     | 4/9 [00:38<00:48,  9.73s/it]Batches:  56%|█████▌    | 5/9 [00:50<00:41, 10.36s/it]Batches:  67%|██████▋   | 6/9 [01:02<00:32, 10.96s/it]Batches:  78%|███████▊  | 7/9 [01:16<00:23, 11.65s/it]Batches:  89%|████████▉ | 8/9 [01:30<00:12, 12.48s/it]Batches: 100%|██████████| 9/9 [01:39<00:00, 11.55s/it]Batches: 100%|██████████| 9/9 [01:39<00:00, 11.10s/it]
-
-Embedding data for 20200223
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:53,  8.91s/it]Batches:  29%|██▊       | 2/7 [00:19<00:46,  9.38s/it]Batches:  43%|████▎     | 3/7 [00:29<00:38,  9.70s/it]Batches:  57%|█████▋    | 4/7 [00:41<00:30, 10.16s/it]Batches:  71%|███████▏  | 5/7 [00:55<00:22, 11.48s/it]Batches:  86%|████████▌ | 6/7 [01:12<00:12, 12.96s/it]Batches: 100%|██████████| 7/7 [01:25<00:00, 13.00s/it]Batches: 100%|██████████| 7/7 [01:25<00:00, 12.16s/it]
-
-Embedding data for 20200224
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:47,  9.52s/it]Batches:  33%|███▎      | 2/6 [00:18<00:37,  9.25s/it]Batches:  50%|█████     | 3/6 [00:29<00:29,  9.78s/it]Batches:  67%|██████▋   | 4/6 [00:41<00:20, 10.50s/it]Batches:  83%|████████▎ | 5/6 [00:54<00:11, 11.35s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 12.32s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.54s/it]
-
-Embedding data for 20200225
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/8 [00:00<?, ?it/s]Batches:  12%|█▎        | 1/8 [00:09<01:09,  9.90s/it]Batches:  25%|██▌       | 2/8 [00:19<00:58,  9.77s/it]Batches:  38%|███▊      | 3/8 [00:29<00:49,  9.89s/it]Batches:  50%|█████     | 4/8 [00:40<00:41, 10.33s/it]Batches:  62%|██████▎   | 5/8 [00:53<00:32, 10.98s/it]Batches:  75%|███████▌  | 6/8 [01:07<00:23, 11.92s/it]Batches:  88%|████████▊ | 7/8 [01:26<00:13, 13.96s/it]Batches: 100%|██████████| 8/8 [01:33<00:00, 12.02s/it]Batches: 100%|██████████| 8/8 [01:33<00:00, 11.72s/it]
-
-Embedding data for 20200226
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:44,  8.80s/it]Batches:  33%|███▎      | 2/6 [00:15<00:32,  8.06s/it]Batches:  50%|█████     | 3/6 [00:26<00:26,  8.99s/it]Batches:  67%|██████▋   | 4/6 [00:38<00:19,  9.83s/it]Batches:  83%|████████▎ | 5/6 [00:51<00:10, 10.98s/it]Batches: 100%|██████████| 6/6 [01:04<00:00, 11.44s/it]Batches: 100%|██████████| 6/6 [01:04<00:00, 10.71s/it]
-
-Embedding data for 20200227
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:10<00:50, 10.16s/it]Batches:  33%|███▎      | 2/6 [00:20<00:40, 10.12s/it]Batches:  50%|█████     | 3/6 [00:31<00:31, 10.52s/it]Batches:  67%|██████▋   | 4/6 [00:44<00:22, 11.22s/it]Batches:  83%|████████▎ | 5/6 [00:59<00:12, 12.33s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.25s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.36s/it]
-
-Embedding data for 20200228
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:45,  9.08s/it]Batches:  33%|███▎      | 2/6 [00:19<00:37,  9.49s/it]Batches:  50%|█████     | 3/6 [00:28<00:27,  9.29s/it]Batches:  67%|██████▋   | 4/6 [00:41<00:20, 10.38s/it]Batches:  83%|████████▎ | 5/6 [00:58<00:12, 12.54s/it]Batches: 100%|██████████| 6/6 [01:07<00:00, 11.22s/it]Batches: 100%|██████████| 6/6 [01:07<00:00, 11.17s/it]
-
-Embedding data for 20200229
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:57,  9.60s/it]Batches:  29%|██▊       | 2/7 [00:18<00:46,  9.24s/it]Batches:  43%|████▎     | 3/7 [00:28<00:38,  9.52s/it]Batches:  57%|█████▋    | 4/7 [00:39<00:30, 10.02s/it]Batches:  71%|███████▏  | 5/7 [00:51<00:21, 10.69s/it]Batches:  86%|████████▌ | 6/7 [01:05<00:11, 11.53s/it]Batches: 100%|██████████| 7/7 [01:16<00:00, 11.42s/it]Batches: 100%|██████████| 7/7 [01:16<00:00, 10.90s/it]
-
-Embedding data for 20200301
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:48,  9.63s/it]Batches:  33%|███▎      | 2/6 [00:20<00:39,  9.97s/it]Batches:  50%|█████     | 3/6 [00:31<00:30, 10.19s/it]Batches:  67%|██████▋   | 4/6 [00:42<00:21, 10.54s/it]Batches:  83%|████████▎ | 5/6 [00:55<00:11, 11.36s/it]Batches: 100%|██████████| 6/6 [01:11<00:00, 12.79s/it]Batches: 100%|██████████| 6/6 [01:11<00:00, 11.98s/it]
-
-Embedding data for 20200302
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:42,  8.47s/it]Batches:  33%|███▎      | 2/6 [00:19<00:37,  9.30s/it]Batches:  50%|█████     | 3/6 [00:33<00:31, 10.53s/it]Batches:  67%|██████▋   | 4/6 [00:45<00:22, 11.02s/it]Batches:  83%|████████▎ | 5/6 [01:00<00:12, 12.35s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.40s/it]Batches: 100%|██████████| 6/6 [01:09<00:00, 11.65s/it]
-
-Embedding data for 20200303
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:49,  8.31s/it]Batches:  29%|██▊       | 2/7 [00:18<00:44,  8.84s/it]Batches:  43%|████▎     | 3/7 [00:29<00:38,  9.55s/it]Batches:  57%|█████▋    | 4/7 [00:41<00:31, 10.34s/it]Batches:  71%|███████▏  | 5/7 [00:53<00:21, 10.74s/it]Batches:  86%|████████▌ | 6/7 [01:10<00:12, 12.50s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 12.04s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 11.58s/it]
-
-Embedding data for 20200304
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:51,  8.65s/it]Batches:  29%|██▊       | 2/7 [00:19<00:46,  9.33s/it]Batches:  43%|████▎     | 3/7 [00:30<00:39,  9.82s/it]Batches:  57%|█████▋    | 4/7 [00:41<00:30, 10.17s/it]Batches:  71%|███████▏  | 5/7 [00:53<00:21, 10.80s/it]Batches:  86%|████████▌ | 6/7 [01:09<00:12, 12.41s/it]Batches: 100%|██████████| 7/7 [01:16<00:00, 10.61s/it]Batches: 100%|██████████| 7/7 [01:16<00:00, 10.91s/it]
-
-Embedding data for 20200305
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:07<00:46,  7.79s/it]Batches:  29%|██▊       | 2/7 [00:15<00:38,  7.67s/it]Batches:  43%|████▎     | 3/7 [00:23<00:31,  7.92s/it]Batches:  57%|█████▋    | 4/7 [00:32<00:24,  8.23s/it]Batches:  71%|███████▏  | 5/7 [00:42<00:17,  8.81s/it]Batches:  86%|████████▌ | 6/7 [00:54<00:09,  9.70s/it]Batches: 100%|██████████| 7/7 [01:05<00:00, 10.19s/it]Batches: 100%|██████████| 7/7 [01:05<00:00,  9.41s/it]
-
-Embedding data for 20200306
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:10<01:32, 10.25s/it]Batches:  20%|██        | 2/10 [00:20<01:22, 10.37s/it]Batches:  30%|███       | 3/10 [00:32<01:14, 10.64s/it]Batches:  40%|████      | 4/10 [00:43<01:04, 10.83s/it]Batches:  50%|█████     | 5/10 [00:55<00:56, 11.23s/it]Batches:  60%|██████    | 6/10 [01:08<00:46, 11.62s/it]Batches:  70%|███████   | 7/10 [01:20<00:35, 11.97s/it]Batches:  80%|████████  | 8/10 [01:36<00:25, 12.97s/it]Batches:  90%|█████████ | 9/10 [01:52<00:13, 13.93s/it]Batches: 100%|██████████| 10/10 [02:03<00:00, 13.16s/it]Batches: 100%|██████████| 10/10 [02:03<00:00, 12.38s/it]
-
-Embedding data for 20200307
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:10<01:22, 10.27s/it]Batches:  22%|██▏       | 2/9 [00:21<01:14, 10.67s/it]Batches:  33%|███▎      | 3/9 [00:32<01:03, 10.63s/it]Batches:  44%|████▍     | 4/9 [00:43<00:54, 10.83s/it]Batches:  56%|█████▌    | 5/9 [00:55<00:44, 11.20s/it]Batches:  67%|██████▋   | 6/9 [01:08<00:34, 11.59s/it]Batches:  78%|███████▊  | 7/9 [01:21<00:23, 11.96s/it]Batches:  89%|████████▉ | 8/9 [01:35<00:12, 12.83s/it]Batches: 100%|██████████| 9/9 [01:53<00:00, 14.22s/it]Batches: 100%|██████████| 9/9 [01:53<00:00, 12.60s/it]
-
-Embedding data for 20200308
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:10<00:52, 10.51s/it]Batches:  33%|███▎      | 2/6 [00:22<00:43, 10.83s/it]Batches:  50%|█████     | 3/6 [00:34<00:33, 11.29s/it]Batches:  67%|██████▋   | 4/6 [00:48<00:24, 12.15s/it]Batches:  83%|████████▎ | 5/6 [01:04<00:13, 13.37s/it]Batches: 100%|██████████| 6/6 [01:15<00:00, 12.46s/it]Batches: 100%|██████████| 6/6 [01:15<00:00, 12.53s/it]
-
-Embedding data for 20200309
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:59,  9.88s/it]Batches:  29%|██▊       | 2/7 [00:20<00:50, 10.06s/it]Batches:  43%|████▎     | 3/7 [00:31<00:42, 10.52s/it]Batches:  57%|█████▋    | 4/7 [00:44<00:32, 10.99s/it]Batches:  71%|███████▏  | 5/7 [00:59<00:24, 12.20s/it]Batches:  86%|████████▌ | 6/7 [01:14<00:13, 13.15s/it]Batches: 100%|██████████| 7/7 [01:27<00:00, 13.18s/it]Batches: 100%|██████████| 7/7 [01:27<00:00, 12.52s/it]
-
-Embedding data for 20200310
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:09<01:28,  9.88s/it]Batches:  20%|██        | 2/10 [00:20<01:20, 10.07s/it]Batches:  30%|███       | 3/10 [00:31<01:12, 10.36s/it]Batches:  40%|████      | 4/10 [00:42<01:03, 10.61s/it]Batches:  50%|█████     | 5/10 [00:54<00:54, 10.87s/it]Batches:  60%|██████    | 6/10 [01:06<00:45, 11.27s/it]Batches:  70%|███████   | 7/10 [01:19<00:35, 11.93s/it]Batches:  80%|████████  | 8/10 [01:34<00:25, 12.70s/it]Batches:  90%|█████████ | 9/10 [01:49<00:13, 13.46s/it]Batches: 100%|██████████| 10/10 [02:05<00:00, 14.26s/it]Batches: 100%|██████████| 10/10 [02:05<00:00, 12.56s/it]
-
-Embedding data for 20200311
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/125 [00:00<?, ?it/s]Batches:   1%|          | 1/125 [00:09<19:27,  9.41s/it]Batches:   2%|▏         | 2/125 [00:18<19:13,  9.38s/it]Batches:   2%|▏         | 3/125 [00:28<19:23,  9.54s/it]Batches:   3%|▎         | 4/125 [00:37<18:49,  9.33s/it]Batches:   4%|▍         | 5/125 [00:44<17:15,  8.63s/it]Batches:   5%|▍         | 6/125 [00:53<17:30,  8.83s/it]Batches:   6%|▌         | 7/125 [01:03<17:56,  9.13s/it]Batches:   6%|▋         | 8/125 [01:13<18:11,  9.33s/it]Batches:   7%|▋         | 9/125 [01:23<18:12,  9.42s/it]Batches:   8%|▊         | 10/125 [01:32<18:19,  9.56s/it]Batches:   9%|▉         | 11/125 [01:42<18:07,  9.54s/it]Batches:  10%|▉         | 12/125 [01:51<17:58,  9.55s/it]Batches:  10%|█         | 13/125 [02:01<17:53,  9.58s/it]Batches:  11%|█         | 14/125 [02:11<17:38,  9.54s/it]Batches:  12%|█▏        | 15/125 [02:20<17:37,  9.61s/it]Batches:  13%|█▎        | 16/125 [02:30<17:22,  9.56s/it]Batches:  14%|█▎        | 17/125 [02:39<17:13,  9.57s/it]Batches:  14%|█▍        | 18/125 [02:49<17:08,  9.61s/it]Batches:  15%|█▌        | 19/125 [02:59<17:09,  9.71s/it]Batches:  16%|█▌        | 20/125 [03:09<17:09,  9.80s/it]Batches:  17%|█▋        | 21/125 [03:20<17:22, 10.03s/it]Batches:  18%|█▊        | 22/125 [03:30<17:12, 10.03s/it]Batches:  18%|█▊        | 23/125 [03:39<16:56,  9.96s/it]Batches:  19%|█▉        | 24/125 [03:50<16:52, 10.03s/it]Batches:  20%|██        | 25/125 [04:00<16:48, 10.08s/it]Batches:  21%|██        | 26/125 [04:10<16:36, 10.06s/it]Batches:  22%|██▏       | 27/125 [04:20<16:28, 10.08s/it]Batches:  22%|██▏       | 28/125 [04:30<16:26, 10.17s/it]Batches:  23%|██▎       | 29/125 [04:41<16:21, 10.22s/it]Batches:  24%|██▍       | 30/125 [04:51<16:13, 10.24s/it]Batches:  25%|██▍       | 31/125 [05:01<15:58, 10.20s/it]Batches:  26%|██▌       | 32/125 [05:12<16:00, 10.33s/it]Batches:  26%|██▋       | 33/125 [05:22<15:46, 10.29s/it]Batches:  27%|██▋       | 34/125 [05:32<15:29, 10.21s/it]Batches:  28%|██▊       | 35/125 [05:42<15:15, 10.17s/it]Batches:  29%|██▉       | 36/125 [05:52<15:04, 10.17s/it]Batches:  30%|██▉       | 37/125 [06:02<14:56, 10.19s/it]Batches:  30%|███       | 38/125 [06:13<14:48, 10.22s/it]Batches:  31%|███       | 39/125 [06:23<14:40, 10.24s/it]Batches:  32%|███▏      | 40/125 [06:33<14:35, 10.30s/it]Batches:  33%|███▎      | 41/125 [06:44<14:27, 10.32s/it]Batches:  34%|███▎      | 42/125 [06:55<14:31, 10.49s/it]Batches:  34%|███▍      | 43/125 [07:05<14:14, 10.43s/it]Batches:  35%|███▌      | 44/125 [07:16<14:09, 10.49s/it]Batches:  36%|███▌      | 45/125 [07:26<14:02, 10.53s/it]Batches:  37%|███▋      | 46/125 [07:37<13:50, 10.51s/it]Batches:  38%|███▊      | 47/125 [07:47<13:41, 10.53s/it]Batches:  38%|███▊      | 48/125 [07:58<13:30, 10.52s/it]Batches:  39%|███▉      | 49/125 [08:08<13:18, 10.50s/it]Batches:  40%|████      | 50/125 [08:19<13:14, 10.60s/it]Batches:  41%|████      | 51/125 [08:29<12:55, 10.48s/it]Batches:  42%|████▏     | 52/125 [08:40<12:54, 10.61s/it]Batches:  42%|████▏     | 53/125 [08:51<12:46, 10.65s/it]Batches:  43%|████▎     | 54/125 [09:02<12:56, 10.93s/it]Batches:  44%|████▍     | 55/125 [09:13<12:37, 10.82s/it]Batches:  45%|████▍     | 56/125 [09:23<12:15, 10.66s/it]Batches:  46%|████▌     | 57/125 [09:34<12:00, 10.59s/it]Batches:  46%|████▋     | 58/125 [09:45<11:58, 10.72s/it]Batches:  47%|████▋     | 59/125 [09:56<11:53, 10.82s/it]Batches:  48%|████▊     | 60/125 [10:07<11:45, 10.86s/it]Batches:  49%|████▉     | 61/125 [10:18<11:38, 10.92s/it]Batches:  50%|████▉     | 62/125 [10:29<11:29, 10.95s/it]Batches:  50%|█████     | 63/125 [10:40<11:16, 10.91s/it]Batches:  51%|█████     | 64/125 [10:51<11:04, 10.90s/it]Batches:  52%|█████▏    | 65/125 [11:02<10:57, 10.96s/it]Batches:  53%|█████▎    | 66/125 [11:13<10:51, 11.04s/it]Batches:  54%|█████▎    | 67/125 [11:24<10:46, 11.15s/it]Batches:  54%|█████▍    | 68/125 [11:35<10:34, 11.13s/it]Batches:  55%|█████▌    | 69/125 [11:46<10:19, 11.07s/it]Batches:  56%|█████▌    | 70/125 [11:57<10:07, 11.05s/it]Batches:  57%|█████▋    | 71/125 [12:09<10:06, 11.23s/it]Batches:  58%|█████▊    | 72/125 [12:20<09:55, 11.24s/it]Batches:  58%|█████▊    | 73/125 [12:30<09:26, 10.89s/it]Batches:  59%|█████▉    | 74/125 [12:41<09:16, 10.92s/it]Batches:  60%|██████    | 75/125 [12:52<09:10, 11.01s/it]Batches:  61%|██████    | 76/125 [13:04<09:09, 11.22s/it]Batches:  62%|██████▏   | 77/125 [13:15<08:59, 11.23s/it]Batches:  62%|██████▏   | 78/125 [13:27<08:55, 11.40s/it]Batches:  63%|██████▎   | 79/125 [13:39<08:42, 11.36s/it]Batches:  64%|██████▍   | 80/125 [13:50<08:36, 11.47s/it]Batches:  65%|██████▍   | 81/125 [14:02<08:29, 11.59s/it]Batches:  66%|██████▌   | 82/125 [14:13<08:12, 11.46s/it]Batches:  66%|██████▋   | 83/125 [14:25<07:58, 11.39s/it]Batches:  67%|██████▋   | 84/125 [14:36<07:47, 11.41s/it]Batches:  68%|██████▊   | 85/125 [14:48<07:47, 11.69s/it]Batches:  69%|██████▉   | 86/125 [15:00<07:36, 11.70s/it]Batches:  70%|██████▉   | 87/125 [15:12<07:24, 11.71s/it]Batches:  70%|███████   | 88/125 [15:23<07:13, 11.71s/it]Batches:  71%|███████   | 89/125 [15:33<06:41, 11.16s/it]Batches:  72%|███████▏  | 90/125 [15:43<06:11, 10.61s/it]Batches:  73%|███████▎  | 91/125 [15:54<06:11, 10.92s/it]Batches:  74%|███████▎  | 92/125 [16:06<06:09, 11.20s/it]Batches:  74%|███████▍  | 93/125 [16:18<06:05, 11.41s/it]Batches:  75%|███████▌  | 94/125 [16:30<05:56, 11.51s/it]Batches:  76%|███████▌  | 95/125 [16:42<05:49, 11.65s/it]Batches:  77%|███████▋  | 96/125 [16:54<05:46, 11.94s/it]Batches:  78%|███████▊  | 97/125 [17:07<05:39, 12.12s/it]Batches:  78%|███████▊  | 98/125 [17:19<05:23, 11.98s/it]Batches:  79%|███████▉  | 99/125 [17:30<05:10, 11.94s/it]Batches:  80%|████████  | 100/125 [17:43<05:02, 12.09s/it]Batches:  81%|████████  | 101/125 [17:56<04:54, 12.27s/it]Batches:  82%|████████▏ | 102/125 [18:08<04:43, 12.33s/it]Batches:  82%|████████▏ | 103/125 [18:20<04:27, 12.16s/it]Batches:  83%|████████▎ | 104/125 [18:33<04:21, 12.44s/it]Batches:  84%|████████▍ | 105/125 [18:46<04:12, 12.63s/it]Batches:  85%|████████▍ | 106/125 [18:59<04:02, 12.75s/it]Batches:  86%|████████▌ | 107/125 [19:12<03:52, 12.90s/it]Batches:  86%|████████▋ | 108/125 [19:25<03:38, 12.88s/it]Batches:  87%|████████▋ | 109/125 [19:39<03:29, 13.08s/it]Batches:  88%|████████▊ | 110/125 [19:52<03:17, 13.20s/it]Batches:  89%|████████▉ | 111/125 [20:06<03:07, 13.39s/it]Batches:  90%|████████▉ | 112/125 [20:20<02:56, 13.55s/it]Batches:  90%|█████████ | 113/125 [20:33<02:41, 13.44s/it]Batches:  91%|█████████ | 114/125 [20:48<02:32, 13.82s/it]Batches:  92%|█████████▏| 115/125 [21:03<02:21, 14.19s/it]Batches:  93%|█████████▎| 116/125 [21:19<02:12, 14.74s/it]Batches:  94%|█████████▎| 117/125 [21:33<01:56, 14.58s/it]Batches:  94%|█████████▍| 118/125 [21:47<01:41, 14.51s/it]Batches:  95%|█████████▌| 119/125 [22:02<01:27, 14.53s/it]Batches:  96%|█████████▌| 120/125 [22:19<01:15, 15.14s/it]Batches:  97%|█████████▋| 121/125 [22:34<01:01, 15.34s/it]Batches:  98%|█████████▊| 122/125 [22:53<00:49, 16.35s/it]Batches:  98%|█████████▊| 123/125 [23:08<00:31, 15.90s/it]Batches:  99%|█████████▉| 124/125 [23:23<00:15, 15.70s/it]Batches: 100%|██████████| 125/125 [23:33<00:00, 13.92s/it]Batches: 100%|██████████| 125/125 [23:33<00:00, 11.31s/it]
-
-Embedding data for 20200312
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/18 [00:00<?, ?it/s]Batches:   6%|▌         | 1/18 [00:09<02:45,  9.76s/it]Batches:  11%|█         | 2/18 [00:19<02:37,  9.82s/it]Batches:  17%|█▋        | 3/18 [00:29<02:28,  9.89s/it]Batches:  22%|██▏       | 4/18 [00:40<02:20, 10.01s/it]Batches:  28%|██▊       | 5/18 [00:50<02:11, 10.14s/it]Batches:  33%|███▎      | 6/18 [01:01<02:04, 10.34s/it]Batches:  39%|███▉      | 7/18 [01:12<01:55, 10.50s/it]Batches:  44%|████▍     | 8/18 [01:23<01:46, 10.69s/it]Batches:  50%|█████     | 9/18 [01:34<01:38, 10.90s/it]Batches:  56%|█████▌    | 10/18 [01:46<01:28, 11.04s/it]Batches:  61%|██████    | 11/18 [01:58<01:19, 11.42s/it]Batches:  67%|██████▋   | 12/18 [02:12<01:12, 12.09s/it]Batches:  72%|███████▏  | 13/18 [02:25<01:02, 12.41s/it]Batches:  78%|███████▊  | 14/18 [02:38<00:50, 12.63s/it]Batches:  83%|████████▎ | 15/18 [02:51<00:38, 12.86s/it]Batches:  89%|████████▉ | 16/18 [03:07<00:27, 13.74s/it]Batches:  94%|█████████▍| 17/18 [03:23<00:14, 14.48s/it]Batches: 100%|██████████| 18/18 [03:31<00:00, 12.50s/it]Batches: 100%|██████████| 18/18 [03:31<00:00, 11.76s/it]
-
-Embedding data for 20200313
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:09<01:29,  9.92s/it]Batches:  20%|██        | 2/10 [00:19<01:19,  9.89s/it]Batches:  30%|███       | 3/10 [00:29<01:09, 10.00s/it]Batches:  40%|████      | 4/10 [00:40<01:01, 10.18s/it]Batches:  50%|█████     | 5/10 [00:51<00:52, 10.49s/it]Batches:  60%|██████    | 6/10 [01:03<00:43, 10.92s/it]Batches:  70%|███████   | 7/10 [01:16<00:34, 11.45s/it]Batches:  80%|████████  | 8/10 [01:30<00:24, 12.10s/it]Batches:  90%|█████████ | 9/10 [01:44<00:12, 12.92s/it]Batches: 100%|██████████| 10/10 [01:59<00:00, 13.43s/it]Batches: 100%|██████████| 10/10 [01:59<00:00, 11.95s/it]
-
-Embedding data for 20200314
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:15,  9.49s/it]Batches:  22%|██▏       | 2/9 [00:19<01:08,  9.78s/it]Batches:  33%|███▎      | 3/9 [00:30<00:59,  9.95s/it]Batches:  44%|████▍     | 4/9 [00:40<00:50, 10.18s/it]Batches:  56%|█████▌    | 5/9 [00:52<00:41, 10.47s/it]Batches:  67%|██████▋   | 6/9 [01:03<00:32, 10.73s/it]Batches:  78%|███████▊  | 7/9 [01:16<00:22, 11.38s/it]Batches:  89%|████████▉ | 8/9 [01:31<00:12, 12.42s/it]Batches: 100%|██████████| 9/9 [01:46<00:00, 13.41s/it]Batches: 100%|██████████| 9/9 [01:46<00:00, 11.89s/it]
-
-Embedding data for 20200315
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:09<01:27,  9.74s/it]Batches:  20%|██        | 2/10 [00:19<01:18,  9.81s/it]Batches:  30%|███       | 3/10 [00:29<01:08,  9.84s/it]Batches:  40%|████      | 4/10 [00:39<00:59,  9.95s/it]Batches:  50%|█████     | 5/10 [00:50<00:51, 10.30s/it]Batches:  60%|██████    | 6/10 [01:00<00:40, 10.22s/it]Batches:  70%|███████   | 7/10 [01:10<00:29,  9.93s/it]Batches:  80%|████████  | 8/10 [01:23<00:21, 10.87s/it]Batches:  90%|█████████ | 9/10 [01:37<00:11, 11.84s/it]Batches: 100%|██████████| 10/10 [01:52<00:00, 12.73s/it]Batches: 100%|██████████| 10/10 [01:52<00:00, 11.22s/it]
-
-Embedding data for 20200316
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:12,  9.08s/it]Batches:  22%|██▏       | 2/9 [00:18<01:04,  9.19s/it]Batches:  33%|███▎      | 3/9 [00:28<00:57,  9.50s/it]Batches:  44%|████▍     | 4/9 [00:39<00:48,  9.76s/it]Batches:  56%|█████▌    | 5/9 [00:50<00:40, 10.12s/it]Batches:  67%|██████▋   | 6/9 [01:02<00:32, 10.72s/it]Batches:  78%|███████▊  | 7/9 [01:15<00:22, 11.40s/it]Batches:  89%|████████▉ | 8/9 [01:30<00:12, 12.58s/it]Batches: 100%|██████████| 9/9 [01:41<00:00, 12.11s/it]Batches: 100%|██████████| 9/9 [01:41<00:00, 11.28s/it]
-
-Embedding data for 20200317
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:58,  9.70s/it]Batches:  29%|██▊       | 2/7 [00:20<00:49,  9.92s/it]Batches:  43%|████▎     | 3/7 [00:30<00:40, 10.11s/it]Batches:  57%|█████▋    | 4/7 [00:41<00:31, 10.43s/it]Batches:  71%|███████▏  | 5/7 [00:54<00:22, 11.03s/it]Batches:  86%|████████▌ | 6/7 [01:08<00:11, 11.93s/it]Batches: 100%|██████████| 7/7 [01:22<00:00, 12.74s/it]Batches: 100%|██████████| 7/7 [01:22<00:00, 11.85s/it]
-
-Embedding data for 20200318
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/9 [00:00<?, ?it/s]Batches:  11%|█         | 1/9 [00:09<01:12,  9.08s/it]Batches:  22%|██▏       | 2/9 [00:18<01:04,  9.17s/it]Batches:  33%|███▎      | 3/9 [00:28<00:55,  9.33s/it]Batches:  44%|████▍     | 4/9 [00:38<00:48,  9.70s/it]Batches:  56%|█████▌    | 5/9 [00:50<00:40, 10.20s/it]Batches:  67%|██████▋   | 6/9 [01:02<00:32, 10.73s/it]Batches:  78%|███████▊  | 7/9 [01:14<00:22, 11.37s/it]Batches:  89%|████████▉ | 8/9 [01:30<00:12, 12.56s/it]Batches: 100%|██████████| 9/9 [01:40<00:00, 11.94s/it]Batches: 100%|██████████| 9/9 [01:40<00:00, 11.19s/it]
-
-Embedding data for 20200319
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:53,  8.95s/it]Batches:  29%|██▊       | 2/7 [00:18<00:45,  9.18s/it]Batches:  43%|████▎     | 3/7 [00:29<00:38,  9.64s/it]Batches:  57%|█████▋    | 4/7 [00:40<00:29,  9.98s/it]Batches:  71%|███████▏  | 5/7 [00:52<00:21, 10.59s/it]Batches:  86%|████████▌ | 6/7 [01:06<00:11, 11.68s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 12.78s/it]Batches: 100%|██████████| 7/7 [01:21<00:00, 11.68s/it]
-
-Embedding data for 20200320
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:48,  9.66s/it]Batches:  33%|███▎      | 2/6 [00:19<00:39,  9.79s/it]Batches:  50%|█████     | 3/6 [00:30<00:30, 10.10s/it]Batches:  67%|██████▋   | 4/6 [00:42<00:21, 10.79s/it]Batches:  83%|████████▎ | 5/6 [00:56<00:11, 11.75s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 12.28s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 11.75s/it]
-
-Embedding data for 20200321
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:49,  9.84s/it]Batches:  33%|███▎      | 2/6 [00:20<00:40, 10.01s/it]Batches:  50%|█████     | 3/6 [00:31<00:31, 10.33s/it]Batches:  67%|██████▋   | 4/6 [00:43<00:21, 10.88s/it]Batches:  83%|████████▎ | 5/6 [00:58<00:12, 12.27s/it]Batches: 100%|██████████| 6/6 [01:07<00:00, 11.23s/it]Batches: 100%|██████████| 6/6 [01:07<00:00, 11.30s/it]
-
-Embedding data for 20200322
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:39,  9.83s/it]Batches:  40%|████      | 2/5 [00:20<00:30, 10.02s/it]Batches:  60%|██████    | 3/5 [00:32<00:21, 10.62s/it]Batches:  80%|████████  | 4/5 [00:49<00:12, 12.46s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.44s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.62s/it]
-
-Embedding data for 20200323
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:47,  9.48s/it]Batches:  33%|███▎      | 2/6 [00:19<00:38,  9.64s/it]Batches:  50%|█████     | 3/6 [00:30<00:30, 10.14s/it]Batches:  67%|██████▋   | 4/6 [00:42<00:21, 10.72s/it]Batches:  83%|████████▎ | 5/6 [00:58<00:12, 12.17s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.49s/it]Batches: 100%|██████████| 6/6 [01:08<00:00, 11.39s/it]
-
-Embedding data for 20200324
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:39,  9.85s/it]Batches:  40%|████      | 2/5 [00:20<00:30, 10.02s/it]Batches:  60%|██████    | 3/5 [00:32<00:21, 10.68s/it]Batches:  80%|████████  | 4/5 [00:46<00:11, 11.75s/it]Batches: 100%|██████████| 5/5 [01:01<00:00, 12.73s/it]Batches: 100%|██████████| 5/5 [01:01<00:00, 12.35s/it]
-
-Embedding data for 20200325
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:47,  9.52s/it]Batches:  33%|███▎      | 2/6 [00:19<00:38,  9.73s/it]Batches:  50%|█████     | 3/6 [00:31<00:30, 10.32s/it]Batches:  67%|██████▋   | 4/6 [00:44<00:22, 11.03s/it]Batches:  83%|████████▎ | 5/6 [01:00<00:12, 12.50s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 11.81s/it]Batches: 100%|██████████| 6/6 [01:10<00:00, 11.71s/it]
-
-Embedding data for 20200326
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:07<00:28,  7.16s/it]Batches:  40%|████      | 2/5 [00:17<00:24,  8.03s/it]Batches:  60%|██████    | 3/5 [00:28<00:18,  9.07s/it]Batches:  80%|████████  | 4/5 [00:43<00:10, 10.83s/it]Batches: 100%|██████████| 5/5 [00:56<00:00, 11.39s/it]Batches: 100%|██████████| 5/5 [00:56<00:00, 11.27s/it]
-
-Embedding data for 20200327
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:39,  9.93s/it]Batches:  40%|████      | 2/5 [00:20<00:30, 10.26s/it]Batches:  60%|██████    | 3/5 [00:33<00:21, 10.84s/it]Batches:  80%|████████  | 4/5 [00:48<00:12, 12.25s/it]Batches: 100%|██████████| 5/5 [00:56<00:00, 11.03s/it]Batches: 100%|██████████| 5/5 [00:56<00:00, 11.38s/it]
-
-Embedding data for 20200328
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:08<00:35,  8.99s/it]Batches:  40%|████      | 2/5 [00:19<00:28,  9.48s/it]Batches:  60%|██████    | 3/5 [00:31<00:20, 10.11s/it]Batches:  80%|████████  | 4/5 [00:44<00:11, 11.15s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.94s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.72s/it]
-
-Embedding data for 20200329
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:36,  9.09s/it]Batches:  40%|████      | 2/5 [00:19<00:28,  9.53s/it]Batches:  60%|██████    | 3/5 [00:31<00:20, 10.19s/it]Batches:  80%|████████  | 4/5 [00:45<00:11, 11.42s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.74s/it]Batches: 100%|██████████| 5/5 [00:58<00:00, 11.64s/it]
-
-Embedding data for 20200330
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:10<00:40, 10.20s/it]Batches:  40%|████      | 2/5 [00:20<00:30, 10.19s/it]Batches:  60%|██████    | 3/5 [00:31<00:21, 10.53s/it]Batches:  80%|████████  | 4/5 [00:44<00:11, 11.12s/it]Batches: 100%|██████████| 5/5 [00:57<00:00, 11.76s/it]Batches: 100%|██████████| 5/5 [00:57<00:00, 11.49s/it]
-
-Embedding data for 20200331
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:36,  9.04s/it]Batches:  40%|████      | 2/5 [00:18<00:27,  9.16s/it]Batches:  60%|██████    | 3/5 [00:28<00:18,  9.36s/it]Batches:  80%|████████  | 4/5 [00:41<00:10, 10.40s/it]Batches: 100%|██████████| 5/5 [00:54<00:00, 11.33s/it]Batches: 100%|██████████| 5/5 [00:54<00:00, 10.93s/it]
-
-Embedding data for 20200401
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:43,  8.71s/it]Batches:  33%|███▎      | 2/6 [00:18<00:35,  8.98s/it]Batches:  50%|█████     | 3/6 [00:28<00:27,  9.32s/it]Batches:  67%|██████▋   | 4/6 [00:39<00:19,  9.80s/it]Batches:  83%|████████▎ | 5/6 [00:52<00:10, 10.83s/it]Batches: 100%|██████████| 6/6 [01:05<00:00, 11.39s/it]Batches: 100%|██████████| 6/6 [01:05<00:00, 10.88s/it]
-
-Embedding data for 20200402
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:08<00:34,  8.62s/it]Batches:  40%|████      | 2/5 [00:18<00:26,  8.86s/it]Batches:  60%|██████    | 3/5 [00:28<00:18,  9.48s/it]Batches:  80%|████████  | 4/5 [00:42<00:10, 10.57s/it]Batches: 100%|██████████| 5/5 [00:52<00:00, 10.56s/it]Batches: 100%|██████████| 5/5 [00:52<00:00, 10.52s/it]
-
-Embedding data for 20200403
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/10 [00:00<?, ?it/s]Batches:  10%|█         | 1/10 [00:08<01:17,  8.61s/it]Batches:  20%|██        | 2/10 [00:17<01:09,  8.67s/it]Batches:  30%|███       | 3/10 [00:26<01:02,  8.90s/it]Batches:  40%|████      | 4/10 [00:36<00:55,  9.22s/it]Batches:  50%|█████     | 5/10 [00:46<00:46,  9.35s/it]Batches:  60%|██████    | 6/10 [00:56<00:38,  9.60s/it]Batches:  70%|███████   | 7/10 [01:08<00:30, 10.23s/it]Batches:  80%|████████  | 8/10 [01:20<00:21, 10.79s/it]Batches:  90%|█████████ | 9/10 [01:35<00:12, 12.05s/it]Batches: 100%|██████████| 10/10 [01:46<00:00, 11.81s/it]Batches: 100%|██████████| 10/10 [01:46<00:00, 10.67s/it]
-
-Embedding data for 20200404
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/12 [00:00<?, ?it/s]Batches:   8%|▊         | 1/12 [00:08<01:32,  8.37s/it]Batches:  17%|█▋        | 2/12 [00:17<01:24,  8.49s/it]Batches:  25%|██▌       | 3/12 [00:25<01:16,  8.46s/it]Batches:  33%|███▎      | 4/12 [00:35<01:11,  8.91s/it]Batches:  42%|████▏     | 5/12 [00:44<01:03,  9.09s/it]Batches:  50%|█████     | 6/12 [00:55<00:56,  9.37s/it]Batches:  58%|█████▊    | 7/12 [01:05<00:47,  9.57s/it]Batches:  67%|██████▋   | 8/12 [01:15<00:39,  9.85s/it]Batches:  75%|███████▌  | 9/12 [01:26<00:30, 10.18s/it]Batches:  83%|████████▎ | 10/12 [01:38<00:21, 10.71s/it]Batches:  92%|█████████▏| 11/12 [01:52<00:11, 11.66s/it]Batches: 100%|██████████| 12/12 [02:01<00:00, 10.96s/it]Batches: 100%|██████████| 12/12 [02:01<00:00, 10.14s/it]
-
-Embedding data for 20200405
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:05<00:32,  5.35s/it]Batches:  29%|██▊       | 2/7 [00:13<00:31,  6.26s/it]Batches:  43%|████▎     | 3/7 [00:23<00:29,  7.30s/it]Batches:  57%|█████▋    | 4/7 [00:33<00:24,  8.15s/it]Batches:  71%|███████▏  | 5/7 [00:45<00:18,  9.26s/it]Batches:  86%|████████▌ | 6/7 [00:58<00:10, 10.43s/it]Batches: 100%|██████████| 7/7 [01:06<00:00,  9.57s/it]Batches: 100%|██████████| 7/7 [01:06<00:00,  9.46s/it]
-
-Embedding data for 20200406
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:08<00:50,  8.39s/it]Batches:  29%|██▊       | 2/7 [00:17<00:42,  8.55s/it]Batches:  43%|████▎     | 3/7 [00:26<00:35,  8.76s/it]Batches:  57%|█████▋    | 4/7 [00:36<00:27,  9.25s/it]Batches:  71%|███████▏  | 5/7 [00:48<00:19,  9.84s/it]Batches:  86%|████████▌ | 6/7 [01:01<00:10, 10.94s/it]Batches: 100%|██████████| 7/7 [01:10<00:00, 10.21s/it]Batches: 100%|██████████| 7/7 [01:10<00:00, 10.03s/it]
-
-Embedding data for 20200407
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:44,  8.94s/it]Batches:  33%|███▎      | 2/6 [00:17<00:35,  8.91s/it]Batches:  50%|█████     | 3/6 [00:27<00:27,  9.08s/it]Batches:  67%|██████▋   | 4/6 [00:37<00:18,  9.44s/it]Batches:  83%|████████▎ | 5/6 [00:50<00:10, 10.50s/it]Batches: 100%|██████████| 6/6 [01:01<00:00, 10.70s/it]Batches: 100%|██████████| 6/6 [01:01<00:00, 10.28s/it]
-
-Embedding data for 20200408
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:07<00:39,  7.98s/it]Batches:  33%|███▎      | 2/6 [00:17<00:33,  8.33s/it]Batches:  50%|█████     | 3/6 [00:27<00:26,  8.90s/it]Batches:  67%|██████▋   | 4/6 [00:37<00:18,  9.38s/it]Batches:  83%|████████▎ | 5/6 [00:49<00:10, 10.05s/it]Batches: 100%|██████████| 6/6 [01:02<00:00, 11.01s/it]Batches: 100%|██████████| 6/6 [01:02<00:00, 10.45s/it]
-
-Embedding data for 20200409
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:43,  8.76s/it]Batches:  33%|███▎      | 2/6 [00:17<00:35,  8.86s/it]Batches:  50%|█████     | 3/6 [00:27<00:27,  9.15s/it]Batches:  67%|██████▋   | 4/6 [00:38<00:19,  9.75s/it]Batches:  83%|████████▎ | 5/6 [00:52<00:11, 11.02s/it]Batches: 100%|██████████| 6/6 [01:04<00:00, 11.26s/it]Batches: 100%|██████████| 6/6 [01:04<00:00, 10.78s/it]
-
-Embedding data for 20200410
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:37,  9.27s/it]Batches:  40%|████      | 2/5 [00:19<00:28,  9.46s/it]Batches:  60%|██████    | 3/5 [00:29<00:19,  9.73s/it]Batches:  80%|████████  | 4/5 [00:42<00:10, 10.62s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.16s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.26s/it]
-
-Embedding data for 20200411
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:48,  9.64s/it]Batches:  33%|███▎      | 2/6 [00:19<00:38,  9.58s/it]Batches:  50%|█████     | 3/6 [00:29<00:29,  9.72s/it]Batches:  67%|██████▋   | 4/6 [00:40<00:20, 10.17s/it]Batches:  83%|████████▎ | 5/6 [00:53<00:11, 11.18s/it]Batches: 100%|██████████| 6/6 [01:00<00:00,  9.95s/it]Batches: 100%|██████████| 6/6 [01:00<00:00, 10.16s/it]
-
-Embedding data for 20200412
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:42,  8.55s/it]Batches:  33%|███▎      | 2/6 [00:17<00:35,  8.77s/it]Batches:  50%|█████     | 3/6 [00:28<00:27,  9.29s/it]Batches:  67%|██████▋   | 4/6 [00:39<00:19,  9.92s/it]Batches:  83%|████████▎ | 5/6 [00:51<00:10, 10.58s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.94s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.60s/it]
-
-Embedding data for 20200413
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:08<00:35,  8.96s/it]Batches:  40%|████      | 2/5 [00:18<00:27,  9.24s/it]Batches:  60%|██████    | 3/5 [00:30<00:19,  9.84s/it]Batches:  80%|████████  | 4/5 [00:43<00:10, 10.92s/it]Batches: 100%|██████████| 5/5 [00:52<00:00, 10.37s/it]Batches: 100%|██████████| 5/5 [00:52<00:00, 10.53s/it]
-
-Embedding data for 20200414
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:36,  9.09s/it]Batches:  40%|████      | 2/5 [00:18<00:27,  9.26s/it]Batches:  60%|██████    | 3/5 [00:30<00:19,  9.90s/it]Batches:  80%|████████  | 4/5 [00:45<00:11, 11.46s/it]Batches: 100%|██████████| 5/5 [00:53<00:00, 10.42s/it]Batches: 100%|██████████| 5/5 [00:53<00:00, 10.65s/it]
-
-Embedding data for 20200415
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:09<00:56,  9.43s/it]Batches:  29%|██▊       | 2/7 [00:19<00:47,  9.57s/it]Batches:  43%|████▎     | 3/7 [00:30<00:40, 10.10s/it]Batches:  57%|█████▋    | 4/7 [00:41<00:31, 10.36s/it]Batches:  71%|███████▏  | 5/7 [00:54<00:22, 11.08s/it]Batches:  86%|████████▌ | 6/7 [01:09<00:12, 12.19s/it]Batches: 100%|██████████| 7/7 [01:19<00:00, 11.60s/it]Batches: 100%|██████████| 7/7 [01:19<00:00, 11.34s/it]
-
-Embedding data for 20200416
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:07<00:38,  7.77s/it]Batches:  33%|███▎      | 2/6 [00:16<00:32,  8.20s/it]Batches:  50%|█████     | 3/6 [00:27<00:26,  8.86s/it]Batches:  67%|██████▋   | 4/6 [00:39<00:19,  9.73s/it]Batches:  83%|████████▎ | 5/6 [00:53<00:10, 10.99s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.74s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.53s/it]
-
-Embedding data for 20200417
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:48,  9.76s/it]Batches:  33%|███▎      | 2/6 [00:18<00:37,  9.48s/it]Batches:  50%|█████     | 3/6 [00:28<00:29,  9.68s/it]Batches:  67%|██████▋   | 4/6 [00:40<00:20, 10.22s/it]Batches:  83%|████████▎ | 5/6 [00:54<00:11, 11.50s/it]Batches: 100%|██████████| 6/6 [01:02<00:00, 10.27s/it]Batches: 100%|██████████| 6/6 [01:02<00:00, 10.35s/it]
-
-Embedding data for 20200418
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:09<00:46,  9.31s/it]Batches:  33%|███▎      | 2/6 [00:18<00:37,  9.38s/it]Batches:  50%|█████     | 3/6 [00:29<00:29,  9.82s/it]Batches:  67%|██████▋   | 4/6 [00:41<00:20, 10.49s/it]Batches:  83%|████████▎ | 5/6 [00:55<00:11, 11.47s/it]Batches: 100%|██████████| 6/6 [01:05<00:00, 10.99s/it]Batches: 100%|██████████| 6/6 [01:05<00:00, 10.90s/it]
-
-Embedding data for 20200419
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/15 [00:00<?, ?it/s]Batches:   7%|▋         | 1/15 [00:08<02:00,  8.58s/it]Batches:  13%|█▎        | 2/15 [00:18<01:56,  8.99s/it]Batches:  20%|██        | 3/15 [00:27<01:46,  8.89s/it]Batches:  27%|██▋       | 4/15 [00:36<01:39,  9.03s/it]Batches:  33%|███▎      | 5/15 [00:46<01:31,  9.17s/it]Batches:  40%|████      | 6/15 [00:56<01:25,  9.45s/it]Batches:  47%|████▋     | 7/15 [01:06<01:18,  9.77s/it]Batches:  53%|█████▎    | 8/15 [01:17<01:09,  9.94s/it]Batches:  60%|██████    | 9/15 [01:27<01:01, 10.21s/it]Batches:  67%|██████▋   | 10/15 [01:38<00:51, 10.28s/it]Batches:  73%|███████▎  | 11/15 [01:51<00:44, 11.15s/it]Batches:  80%|████████  | 12/15 [02:04<00:34, 11.62s/it]Batches:  87%|████████▋ | 13/15 [02:16<00:23, 11.95s/it]Batches:  93%|█████████▎| 14/15 [02:29<00:12, 12.09s/it]Batches: 100%|██████████| 15/15 [02:39<00:00, 11.48s/it]Batches: 100%|██████████| 15/15 [02:39<00:00, 10.63s/it]
-
-Embedding data for 20200420
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:08<00:34,  8.60s/it]Batches:  40%|████      | 2/5 [00:18<00:26,  8.96s/it]Batches:  60%|██████    | 3/5 [00:29<00:19,  9.65s/it]Batches:  80%|████████  | 4/5 [00:42<00:10, 10.63s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.22s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.37s/it]
-
-Embedding data for 20200421
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:08<00:26,  8.72s/it]Batches:  50%|█████     | 2/4 [00:18<00:18,  9.04s/it]Batches:  75%|███████▌  | 3/4 [00:30<00:09,  9.93s/it]Batches: 100%|██████████| 4/4 [00:42<00:00, 10.64s/it]Batches: 100%|██████████| 4/4 [00:42<00:00, 10.71s/it]
-
-Embedding data for 20200422
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:08<00:26,  8.92s/it]Batches:  50%|█████     | 2/4 [00:19<00:18,  9.29s/it]Batches:  75%|███████▌  | 3/4 [00:30<00:09,  9.82s/it]Batches: 100%|██████████| 4/4 [00:43<00:00, 11.02s/it]Batches: 100%|██████████| 4/4 [00:43<00:00, 10.99s/it]
-
-Embedding data for 20200423
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:42,  8.55s/it]Batches:  33%|███▎      | 2/6 [00:17<00:34,  8.60s/it]Batches:  50%|█████     | 3/6 [00:26<00:26,  8.79s/it]Batches:  67%|██████▋   | 4/6 [00:37<00:18,  9.36s/it]Batches:  83%|████████▎ | 5/6 [00:52<00:11, 11.09s/it]Batches: 100%|██████████| 6/6 [01:00<00:00, 10.09s/it]Batches: 100%|██████████| 6/6 [01:00<00:00, 10.01s/it]
-
-Embedding data for 20200424
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:09<00:28,  9.54s/it]Batches:  50%|█████     | 2/4 [00:18<00:18,  9.39s/it]Batches:  75%|███████▌  | 3/4 [00:29<00:09,  9.93s/it]Batches: 100%|██████████| 4/4 [00:43<00:00, 11.07s/it]Batches: 100%|██████████| 4/4 [00:43<00:00, 10.88s/it]
-
-Embedding data for 20200425
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:08<00:25,  8.38s/it]Batches:  50%|█████     | 2/4 [00:18<00:17,  8.92s/it]Batches:  75%|███████▌  | 3/4 [00:31<00:10, 10.19s/it]Batches: 100%|██████████| 4/4 [00:40<00:00,  9.72s/it]Batches: 100%|██████████| 4/4 [00:40<00:00, 10.08s/it]
-
-Embedding data for 20200426
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/13 [00:00<?, ?it/s]Batches:   8%|▊         | 1/13 [00:08<01:36,  8.00s/it]Batches:  15%|█▌        | 2/13 [00:15<01:27,  8.00s/it]Batches:  23%|██▎       | 3/13 [00:24<01:22,  8.21s/it]Batches:  31%|███       | 4/13 [00:33<01:16,  8.50s/it]Batches:  38%|███▊      | 5/13 [00:43<01:09,  8.75s/it]Batches:  46%|████▌     | 6/13 [00:52<01:02,  8.87s/it]Batches:  54%|█████▍    | 7/13 [01:02<00:55,  9.22s/it]Batches:  62%|██████▏   | 8/13 [01:13<00:48,  9.68s/it]Batches:  69%|██████▉   | 9/13 [01:24<00:40, 10.15s/it]Batches:  77%|███████▋  | 10/13 [01:36<00:31, 10.66s/it]Batches:  85%|████████▍ | 11/13 [01:51<00:24, 12.17s/it]Batches:  92%|█████████▏| 12/13 [02:04<00:12, 12.39s/it]Batches: 100%|██████████| 13/13 [02:17<00:00, 12.40s/it]Batches: 100%|██████████| 13/13 [02:17<00:00, 10.56s/it]
-
-Embedding data for 20200427
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:09<00:38,  9.56s/it]Batches:  40%|████      | 2/5 [00:19<00:29,  9.80s/it]Batches:  60%|██████    | 3/5 [00:30<00:19,  9.94s/it]Batches:  80%|████████  | 4/5 [00:43<00:10, 11.00s/it]Batches: 100%|██████████| 5/5 [00:54<00:00, 11.01s/it]Batches: 100%|██████████| 5/5 [00:54<00:00, 10.94s/it]
-
-Embedding data for 20200428
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:08<00:34,  8.56s/it]Batches:  40%|████      | 2/5 [00:18<00:26,  8.99s/it]Batches:  60%|██████    | 3/5 [00:30<00:19,  9.74s/it]Batches:  80%|████████  | 4/5 [00:43<00:10, 10.86s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.07s/it]Batches: 100%|██████████| 5/5 [00:51<00:00, 10.35s/it]
-
-Embedding data for 20200429
-From string match
-/home/sentiment/.local/lib/python3.6/site-packages/transformers/tokenization_utils.py:831: FutureWarning: Parameter max_len is deprecated and will be removed in a future release. Use model_max_length instead.
-  category=FutureWarning,
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:08<00:41,  8.37s/it]Batches:  33%|███▎      | 2/6 [00:17<00:34,  8.74s/it]Batches:  50%|█████     | 3/6 [00:28<00:27,  9.13s/it]Batches:  67%|██████▋   | 4/6 [00:40<00:20, 10.02s/it]Batches:  83%|████████▎ | 5/6 [00:54<00:11, 11.26s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.57s/it]Batches: 100%|██████████| 6/6 [01:03<00:00, 10.54s/it]
-
-Embedding data for 20200430
-From string match

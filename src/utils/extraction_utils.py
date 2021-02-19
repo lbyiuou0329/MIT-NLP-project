@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 import numpy as np
 from datetime import date, timedelta
+from sentence_transformers import SentenceTransformer
 
 def get_dates(args):
 
@@ -38,7 +39,7 @@ def get_data(date, args):
         subset = get_string_match_subset(tweets, args)
 
     subset['date'] = date
-    
+
     return subset
 
 def get_relevant_topics(model, keywords, topn=None, weight_threshold=None):
@@ -100,5 +101,5 @@ def get_string_match_subset(tweet_text, args):
 def get_embeddings(corpus, args):
     model = SentenceTransformer(args.model)
     embeddings = model.encode(corpus, show_progress_bar=True, batch_size=args.batch_size)
-    np.save('data/topical_tweets/{}{}_embeddings.npy'.format(args.ext_name, args.suffix), np.array(embeddings))
+    np.save('data/extractions/{}{}_embeddings.npy'.format(args.ext_name, args.suffix), np.array(embeddings))
     return embeddings

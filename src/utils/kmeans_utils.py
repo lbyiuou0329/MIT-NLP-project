@@ -21,8 +21,8 @@ random_state = 123
 # tweet_file = datapath + '/trump_tweets.tsv'
 # embedding_file = datapath+'/trump_embeddings.npy'
 
-tweet_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topical_tweets/test/test1.tsv'
-embedding_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topical_tweets/test/test1.npy'
+tweet_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/extractions/test/test1.tsv'
+embedding_file = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/extractions/test/test1.npy'
 
 
 ## usage: python3 kmeans_utils.py 50,60 (also, remember to change tweet_file and embedding_file)

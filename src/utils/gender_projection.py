@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     vector = np.load(args.vec)
 
-    # trump_folder = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/topical_tweets/trump/str_match'
+    # trump_folder = '/Users/boyuliu/Dropbox (MIT)/nlp_project/data/extractions/trump/str_match'
     # embed_file = '/20200101_from_string_match_embeddings.npy'
     # embeddings = np.load(trump_folder+embed_file)
 
