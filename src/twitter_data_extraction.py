@@ -1,49 +1,9 @@
-#usage: python3 subset_topical_tweets.py date [key,word,list,two-words] topic_name
-# --text_path '/home/sentiment/data_lake/twitter/processed/'
+# usage: python3 src/twitter_data_extraction.py test --incl_keywords trump --country PRT --lang en --start_date 2019-01-01 --end_date 2019-01-02 --text_path /home/sentiment/data-lake/twitter/processed/ --geo_path /home/sentiment/data-lake/twitter/geoinfo/
 
 import pandas as pd
-import re
-from pathlib import Path
-import numpy as np
 import argparse
-import sys
-from sentence_transformers import SentenceTransformer
 from tqdm.auto import tqdm
-
-from utils.extraction_utils import get_string_match_subset, get_topic_model_subset, get_dates
-
-def save_embedding(corpus, args):
-    embeddings = model.encode(corpus, show_progress_bar=True, batch_size=args.batch_size)
-    np.save('data/topical_tweets/{}{}_embeddings.npy'.format(args.ext_name, args.suffix), np.array(embeddings))
-
-def get_data(date, args):
-
-    if True:#    try:
-        text = pd.read_csv(args.text_path+"{}{}{}.tsv.gz".format(date.year, str(date.month).zfill(2), str(date.day).zfill(2)), sep='\t', usecols=['tweet_id', 'lang', 'tweet_text_clean', 'tweet_text_keywords'])
-        if args.lang is not None:
-            text = text[text['lang']==args.lang.lower()]
-        text = text[text['tweet_text_keywords'].notnull()]
-
-        geo = pd.read_csv(args.geo_path + '{}-{}-{}.tsv.gz'.format(date.year, str(date.month).zfill(2), str(date.day).zfill(2)), sep=',')
-        if args.country is not None:
-            geo = geo[geo['country']==args.country.upper()]
-
-        tweets = pd.merge(text, geo, how='inner', on='tweet_id')
-        del text, geo
-
-    else:#except:
-        print("\nNo data for {}.".format(date))
-        return pd.DataFrame()
-
-    if args.topic_model:
-        subset = get_topic_model_subset(tweets, args)
-        print('Done: %s topical tweets' % subset.shape[0])
-    else:
-        subset = get_string_match_subset(tweets, args)
-        print('Done: %s topical tweets' % subset.shape[0])
-
-    return subset
-
+from utils.extraction_utils import get_dates, get_data, get_embeddings
 
 if __name__ == '__main__':
 
@@ -92,8 +52,6 @@ if __name__ == '__main__':
     for date in tqdm(dates):
         temp = get_data(date, args)
         df = pd.concat([df, temp], axis=0)
+        df.to_csv('data/topical_tweets/{}{}.tsv'.format(args.ext_name, args.suffix), sep='\t', index=False)
 
-    df.to_csv('data/topical_tweets/{}{}.tsv'.format(args.ext_name, args.suffix), sep='\t', index=False)
-
-    model = SentenceTransformer(args.model)
-    save_embedding(df['tweet_text_clean'].fillna('').values, args=args)
+    embeddings = get_embeddings(df['tweet_text_clean'].fillna('').values, args=args)

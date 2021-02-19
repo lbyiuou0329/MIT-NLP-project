@@ -14,6 +14,33 @@ def get_dates(args):
 
     return dates
 
+def get_data(date, args):
+
+    try:
+        text = pd.read_csv(args.text_path+"{}{}{}.tsv.gz".format(date.year, str(date.month).zfill(2), str(date.day).zfill(2)), sep='\t', usecols=['tweet_id', 'lang', 'tweet_text_clean', 'tweet_text_keywords'])
+        if args.lang is not None:
+            text = text[text['lang']==args.lang.lower()]
+        text = text[text['tweet_text_keywords'].notnull()]
+
+        geo = pd.read_csv(args.geo_path + '{}-{}-{}.tsv.gz'.format(date.year, str(date.month).zfill(2), str(date.day).zfill(2)), sep=',')
+        if args.country is not None:
+            geo = geo[geo['country']==args.country.upper()]
+
+        tweets = pd.merge(text, geo, how='inner', on='tweet_id')
+        del text, geo
+    except:
+        print("\nNo data for {}.".format(date))
+        return pd.DataFrame()
+
+    if args.topic_model:
+        subset = get_topic_model_subset(tweets, args)
+    else:
+        subset = get_string_match_subset(tweets, args)
+
+    subset['date'] = date
+    
+    return subset
+
 def get_relevant_topics(model, keywords, topn=None, weight_threshold=None):
     """
     Takes HDP model and keywords along with one of either topn or weight_threshold to determine relevence
@@ -65,7 +92,13 @@ def get_string_match_subset(tweet_text, args):
     if len(args.excl_keywords)>0:
         regex = '|'.join(args.excl_keywords)
         tweet_text['drop'] = [bool(re.search(regex, elem)) for elem in tweet_text['tweet_text_keywords'].values]
-        tweet_text = tweet_text[tweet_text['drop']==True].reset_index(drop=True)
+        tweet_text = tweet_text[tweet_text['drop']==False].reset_index(drop=True)
         del tweet_text['drop']
 
     return tweet_text
+
+def get_embeddings(corpus, args):
+    model = SentenceTransformer(args.model)
+    embeddings = model.encode(corpus, show_progress_bar=True, batch_size=args.batch_size)
+    np.save('data/topical_tweets/{}{}_embeddings.npy'.format(args.ext_name, args.suffix), np.array(embeddings))
+    return embeddings
